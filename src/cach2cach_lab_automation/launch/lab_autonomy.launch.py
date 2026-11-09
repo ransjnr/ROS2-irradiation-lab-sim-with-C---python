@@ -14,13 +14,17 @@ def generate_launch_description():
     nav_share = get_package_share_directory("mobile_manipulator_nav")
     moveit_share = get_package_share_directory("mobile_manipulator_moveit_config")
     orchestrator_share = get_package_share_directory("pick_place_orchestrator")
-    lab_world = os.path.join(share, "worlds", "irradiation_lab.sdf")
     headless = LaunchConfiguration("headless")
     motion = LaunchConfiguration("enable_motion")
+    # Start our lab world directly. nav_bringup includes the upstream warehouse world,
+    # so navigation is launched separately below.
+    simulation = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(os.path.join(share, "launch", "irradiation_lab_simulation.launch.py")),
+        launch_arguments={"headless": headless}.items())
     # Gazebo needs time to load gz_ros2_control before Nav2 requests TF.
     navigation = TimerAction(period=25.0, actions=[IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(os.path.join(nav_share, "launch", "nav_bringup.launch.py")),
-        launch_arguments={"world": lab_world, "headless": headless, "use_rviz": "false", "x_pose": "0.0", "y_pose": "0.0"}.items())])
+        PythonLaunchDescriptionSource(os.path.join(nav_share, "launch", "navigation.launch.py")),
+        launch_arguments={"use_sim_time": "true", "use_rviz": "false"}.items())])
     moveit = TimerAction(period=40.0, actions=[IncludeLaunchDescription(
         PythonLaunchDescriptionSource(os.path.join(moveit_share, "launch", "move_group.launch.py")),
         launch_arguments={"use_sim_time": "true", "ros2_control_hardware_type": "gz"}.items())])
@@ -37,5 +41,5 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument("headless", default_value="false"),
         DeclareLaunchArgument("enable_motion", default_value="false", description="Simulation-only: permit approved task executor to send mission actions"),
-        map_to_odom, navigation, moveit, orchestrator, perception,
+        map_to_odom, simulation, navigation, moveit, orchestrator, perception,
     ])

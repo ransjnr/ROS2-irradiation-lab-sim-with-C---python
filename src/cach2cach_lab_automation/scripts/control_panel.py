@@ -3,6 +3,7 @@
 
 from functools import partial
 import tkinter as tk
+from time import monotonic
 
 from control_msgs.action import FollowJointTrajectory
 from geometry_msgs.msg import Twist
@@ -34,9 +35,10 @@ class RobotPanel(Node):
         self.approval_pub = self.create_publisher(String, "/lab/task_approval", 10)
         self.arm_client = ActionClient(self, FollowJointTrajectory, "/joint_trajectory_controller/follow_joint_trajectory")
         self.gripper_client = ActionClient(self, FollowJointTrajectory, "/gripper_controller/follow_joint_trajectory")
-        self.status = tk.StringVar(value="Ready — base controls are hold-to-move")
+        self.status = tk.StringVar(value="Ready — each base button makes one safe, visible movement")
         self.sample_id = tk.StringVar(value="LAB-SAMPLE-001")
         self.active_command = None
+        self.drive_until = None
         self.create_subscription(String, "/lab/execution_state", self.on_execution_state, 10)
         self.create_subscription(String, "/lab/mission_state", self.on_mission_state, 10)
         self.create_timer(0.05, self.process_ros)
@@ -48,21 +50,20 @@ class RobotPanel(Node):
         self.root.geometry("540x490")
         self.root.configure(padx=14, pady=14)
         tk.Label(self.root, text="cach2cach laboratory robot", font=("Sans", 18, "bold")).pack()
-        tk.Label(self.root, text="Simulation controls — release a drive button to stop", fg="#9b1c1c").pack(pady=(2, 10))
+        tk.Label(self.root, text="Simulation controls — each base click sends a short, safe motion", fg="#9b1c1c").pack(pady=(2, 10))
 
         base = tk.LabelFrame(self.root, text="Mobile base", padx=8, pady=8)
         base.pack(fill="x")
         for label, row, col, linear, angular in [
-            ("Forward", 0, 1, 0.20, 0.0), ("Left", 1, 0, 0.0, 0.45),
-            ("Stop", 1, 1, 0.0, 0.0), ("Right", 1, 2, 0.0, -0.45),
-            ("Reverse", 2, 1, -0.15, 0.0),
+            ("Forward", 0, 1, 0.25, 0.0), ("Left", 1, 0, 0.0, 0.60),
+            ("Stop", 1, 1, 0.0, 0.0), ("Right", 1, 2, 0.0, -0.60),
+            ("Reverse", 2, 1, -0.20, 0.0),
         ]:
             button = tk.Button(base, text=label, width=11, height=2,
-                               command=self.stop if label == "Stop" else None)
+                               command=self.stop if label == "Stop" else partial(self.drive_for, linear, angular))
             button.grid(row=row, column=col, padx=3, pady=3)
-            if label != "Stop":
-                button.bind("<ButtonPress-1>", partial(self.drive, linear, angular))
-                button.bind("<ButtonRelease-1>", lambda _event: self.stop())
+        tk.Label(base, text="Forward/reverse: 0.4 m pulse.  Left/right: 45° turn pulse.", fg="#404040").grid(
+            row=3, column=0, columnspan=3, pady=(5, 0))
 
         arm = tk.LabelFrame(self.root, text="Arm and gripper", padx=8, pady=8)
         arm.pack(fill="x", pady=(10, 0))
@@ -82,17 +83,23 @@ class RobotPanel(Node):
 
     def process_ros(self):
         rclpy.spin_once(self, timeout_sec=0.0)
+        if self.drive_until is not None and monotonic() >= self.drive_until:
+            self.stop()
         if self.active_command is not None:
             self.cmd_pub.publish(self.active_command)
 
-    def drive(self, linear, angular, _event):
+    def drive_for(self, linear, angular):
         command = Twist()
         command.linear.x, command.angular.z = linear, angular
         self.active_command = command
-        self.status.set("Driving — release button to stop")
+        # Linear motions use 1.6 seconds; turn pulses use 1.3 seconds.
+        self.drive_until = monotonic() + (1.6 if linear else 1.3)
+        self.cmd_pub.publish(command)
+        self.status.set("Driving — press Stop to cancel immediately")
 
     def stop(self):
         self.active_command = None
+        self.drive_until = None
         self.cmd_pub.publish(Twist())
         self.status.set("Base stopped")
 
