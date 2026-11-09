@@ -1,0 +1,36 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/cach2cach_ws/build/cach2cach_workcell
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/config/controllers.yaml
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/launch/__pycache__/cach2cach.launch.cpython-314.pyc
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/launch/cach2cach.launch.py
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/launch/mobile_navigation.launch.py
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/maps/lab_map.pgm
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/maps/lab_map.yaml
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/urdf/cach2cach_gripper.xacro
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/urdf/cach2cach_ur5e.urdf.xacro
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/urdf/ros2_control.xacro
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/worlds/cach2cach_lab.sdf
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/lib/cach2cach_workcell/station_route.py
+-- Symlinking: /root/cach2cach_ws/install/cach2cach_workcell/lib/cach2cach_workcell/odom_tf_broadcaster.py
+-- Symlinking: /root/cach2cach_ws/install/cach2cach_workcell/lib/cach2cach_workcell/wheel_state_publisher.py
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/lib/cach2cach_workcell/add_collision_objects.py
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/ament_index/resource_index/package_run_dependencies/cach2cach_workcell
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/ament_index/resource_index/parent_prefix_path/cach2cach_workcell
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/environment/path.sh
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/environment/path.dsv
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/local_setup.bash
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/local_setup.sh
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/local_setup.zsh
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/local_setup.dsv
+-- Symlinking: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/package.dsv
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/ament_index/resource_index/packages/cach2cach_workcell
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/cmake/cach2cach_workcellConfig.cmake
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/cmake/cach2cach_workcellConfig-version.cmake
+-- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/package.xml

@@ -1,0 +1,6 @@
+{
+  "package_name": "pick_place_orchestrator",
+  "non_idl_tuples": [
+    "/root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator:action/PickPlaceMission.action"
+  ]
+}

@@ -1,0 +1,66 @@
+[0.018s] Invoking command in '/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation -- -j28 -l28
+[0.063s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.416s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.425s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.469s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.481s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.511s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.592s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.594s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.695s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.816s] -- Found rclcpp_action: 28.1.21 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.895s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.926s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.955s] -- Found pick_place_orchestrator: 0.0.0 (/root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake)
+[1.232s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[1.615s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.752s] -- Found tcb_span: 1.3.2 (/opt/ros/jazzy/share/tcb_span/cmake)
+[1.767s] -- Found rclcpp_lifecycle: 28.1.21 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.828s] -- Found parameter_traits: 0.7.6 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.982s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.982s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.270s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[2.347s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[2.392s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[2.828s] -- Configuring done (2.8s)
+[2.849s] -- Generating done (0.0s)
+[2.856s] -- Build files have been written to: /root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation
+[2.919s] [ 25%] Building CXX object CMakeFiles/approved_task_executor.dir/src/approved_task_executor.cpp.o
+[2.933s] [ 75%] Built target sample_mission_supervisor
+[13.627s] [100%] Linking CXX executable approved_task_executor
+[14.093s] [100%] Built target approved_task_executor
+[14.112s] Invoked command in '/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation -- -j28 -l28
+[14.128s] Invoking command in '/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation
+[14.141s] -- Install configuration: ""
+[14.142s] -- Execute custom install script
+[14.142s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib/cach2cach_lab_automation/sample_mission_supervisor
+[14.142s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib/cach2cach_lab_automation/approved_task_executor
+[14.160s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib/cach2cach_lab_automation/barcode_detector.py
+[14.160s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib/cach2cach_lab_automation/sample_pose_estimator.py
+[14.160s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/config/sample_registry.json
+[14.161s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/config/sample_world_poses.json
+[14.161s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/launch/barcode_pipeline.launch.py
+[14.161s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/launch/irradiation_lab_simulation.launch.py
+[14.161s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/launch/lab_autonomy.launch.py
+[14.175s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/launch/lab_bringup.launch.py
+[14.176s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/worlds/irradiation_lab.sdf
+[14.176s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/media/qr/LAB-SAMPLE-001.png
+[14.194s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/media/qr/LAB-SAMPLE-002.png
+[14.206s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/media/qr/LAB-SAMPLE-003.png
+[14.221s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/ament_index/resource_index/package_run_dependencies/cach2cach_lab_automation
+[14.221s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/ament_index/resource_index/parent_prefix_path/cach2cach_lab_automation
+[14.222s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/environment/ament_prefix_path.sh
+[14.222s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/environment/ament_prefix_path.dsv
+[14.222s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/environment/path.sh
+[14.222s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/environment/path.dsv
+[14.222s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/local_setup.bash
+[14.223s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/local_setup.sh
+[14.223s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/local_setup.zsh
+[14.223s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/local_setup.dsv
+[14.223s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.dsv
+[14.238s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/ament_index/resource_index/packages/cach2cach_lab_automation
+[14.238s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/cmake/cach2cach_lab_automationConfig.cmake
+[14.239s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/cmake/cach2cach_lab_automationConfig-version.cmake
+[14.239s] -- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.xml
+[14.240s] Invoked command in '/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/cach2cach_ws/build/mur5e_reference/pick_place_orchestrator/mission_trigger_node" "TARGETS" "mission_trigger_node" "DESTINATION" "lib/pick_place_orchestrator")

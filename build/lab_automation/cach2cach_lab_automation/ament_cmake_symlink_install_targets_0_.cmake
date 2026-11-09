@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation/sample_mission_supervisor" "/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation/approved_task_executor" "TARGETS" "sample_mission_supervisor" "approved_task_executor" "DESTINATION" "lib/cach2cach_lab_automation")

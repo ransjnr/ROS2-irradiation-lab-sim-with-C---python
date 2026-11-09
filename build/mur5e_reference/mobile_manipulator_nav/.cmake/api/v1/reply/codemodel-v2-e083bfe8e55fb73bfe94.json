@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2c2c358598f2490e8c54.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mobile_manipulator_nav",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "is_arm_stowed_condition_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-is_arm_stowed_condition_bt_node-e0838dff87ca69b4e746.json",
+					"name" : "is_arm_stowed_condition_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mobile_manipulator_nav_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mobile_manipulator_nav_uninstall-1f15e10ebfe8b2120bfe.json",
+					"name" : "mobile_manipulator_nav_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c575d474b1a0ef6440f1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/cach2cach_ws/build/mur5e_reference/mobile_manipulator_nav",
+		"source" : "/root/cach2cach_ws/third_party/mur5e_reference/src/mobile_manipulator_nav"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

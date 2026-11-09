@@ -1,0 +1,4 @@
+source;share/cach2cach_description/local_setup.bash
+source;share/cach2cach_description/local_setup.dsv
+source;share/cach2cach_description/local_setup.sh
+source;share/cach2cach_description/local_setup.zsh

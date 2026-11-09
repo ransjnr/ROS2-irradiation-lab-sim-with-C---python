@@ -1,0 +1,165 @@
+[0.026s] Invoking command in '/root/cach2cach_ws/build/cach2cach_sample_vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/cach2cach_ws/build/cach2cach_sample_vision -- -j28 -l28
+[0.142s] [  2%] Built target cach2cach_sample_vision__rs
+[0.146s] [  4%] Built target cach2cach_sample_vision__rosidl_generator_type_description
+[0.163s] [  4%] Built target ament_cmake_python_symlink_cach2cach_sample_vision
+[0.184s] [  6%] Built target cach2cach_sample_vision__cpp
+[0.200s] [ 23%] Built target cach2cach_sample_vision__rosidl_generator_c
+[0.259s] [ 31%] Built target cach2cach_sample_vision__rosidl_typesupport_introspection_cpp
+[0.259s] [ 40%] Built target cach2cach_sample_vision__rosidl_typesupport_c
+[0.260s] [ 48%] Built target cach2cach_sample_vision__rosidl_typesupport_introspection_c
+[0.260s] [ 57%] Built target cach2cach_sample_vision__rosidl_typesupport_fastrtps_c
+[0.264s] [ 65%] Built target cach2cach_sample_vision__rosidl_typesupport_fastrtps_cpp
+[0.266s] [ 74%] Built target cach2cach_sample_vision__rosidl_typesupport_cpp
+[0.310s] [ 74%] Built target cach2cach_sample_vision
+[0.353s] [ 76%] Built target cach2cach_sample_vision__py
+[0.365s] [ 78%] Building CXX object CMakeFiles/barcode_detector.dir/src/barcode_detector.cpp.o
+[0.388s] [ 85%] Built target cach2cach_sample_vision__rosidl_generator_py
+[0.431s] [ 89%] Built target cach2cach_sample_vision_s__rosidl_typesupport_fastrtps_c
+[0.432s] [ 93%] Built target cach2cach_sample_vision_s__rosidl_typesupport_introspection_c
+[0.437s] [ 97%] Built target cach2cach_sample_vision_s__rosidl_typesupport_c
+[0.561s] running egg_info
+[0.585s] writing cach2cach_sample_vision.egg-info/PKG-INFO
+[0.585s] writing dependency_links to cach2cach_sample_vision.egg-info/dependency_links.txt
+[0.586s] writing top-level names to cach2cach_sample_vision.egg-info/top_level.txt
+[0.675s] reading manifest file 'cach2cach_sample_vision.egg-info/SOURCES.txt'
+[0.676s] writing manifest file 'cach2cach_sample_vision.egg-info/SOURCES.txt'
+[0.715s] [ 97%] Built target ament_cmake_python_build_cach2cach_sample_vision_egg
+[18.859s] [100%] Linking CXX executable barcode_detector
+[20.215s] [100%] Built target barcode_detector
+[20.238s] Invoked command in '/root/cach2cach_ws/build/cach2cach_sample_vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/cach2cach_ws/build/cach2cach_sample_vision -- -j28 -l28
+[20.258s] Invoking command in '/root/cach2cach_ws/build/cach2cach_sample_vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/cach2cach_ws/build/cach2cach_sample_vision
+[20.274s] -- Install configuration: ""
+[20.275s] -- Execute custom install script
+[20.275s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/ament_index/resource_index/rosidl_interfaces/cach2cach_sample_vision
+[20.296s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/msg/SampleObservation.json
+[20.314s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/msg/SampleObservationArray.json
+[20.335s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation__functions.h
+[20.354s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation__struct.h
+[20.370s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation__type_support.h
+[20.388s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation_array__functions.h
+[20.406s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation_array__struct.h
+[20.427s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation_array__type_support.h
+[20.450s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/rosidl_generator_c__visibility_control.h
+[20.472s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/sample_observation.h
+[20.488s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/sample_observation_array.h
+[20.504s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/environment/library_path.sh
+[20.522s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/environment/library_path.dsv
+[20.539s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation__rosidl_typesupport_fastrtps_c.h
+[20.561s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation_array__rosidl_typesupport_fastrtps_c.h
+[20.583s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.599s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation__builder.hpp
+[20.621s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation__struct.hpp
+[20.641s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation__traits.hpp
+[20.662s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation__type_support.hpp
+[20.680s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation_array__builder.hpp
+[20.701s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation_array__struct.hpp
+[20.721s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation_array__traits.hpp
+[20.737s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation_array__type_support.hpp
+[20.758s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/rosidl_generator_cpp__visibility_control.hpp
+[20.776s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/sample_observation.hpp
+[20.796s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/sample_observation_array.hpp
+[20.816s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation__rosidl_typesupport_fastrtps_cpp.hpp
+[20.832s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation_array__rosidl_typesupport_fastrtps_cpp.hpp
+[20.851s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.869s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation__rosidl_typesupport_introspection_c.h
+[20.886s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation_array__rosidl_typesupport_introspection_c.h
+[20.909s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.934s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation__rosidl_typesupport_introspection_cpp.hpp
+[20.960s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/include/cach2cach_sample_vision/cach2cach_sample_vision/msg/detail/sample_observation_array__rosidl_typesupport_introspection_cpp.hpp
+[20.976s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/environment/pythonpath.sh
+[20.994s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/environment/pythonpath.dsv
+[21.013s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision-0.1.0-py3.12.egg-info/PKG-INFO
+[21.028s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision-0.1.0-py3.12.egg-info/SOURCES.txt
+[21.047s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision-0.1.0-py3.12.egg-info/dependency_links.txt
+[21.069s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision-0.1.0-py3.12.egg-info/top_level.txt
+[21.094s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/__init__.py
+[21.122s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/_cach2cach_sample_vision_s.ep.rosidl_typesupport_c.c
+[21.140s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/_cach2cach_sample_vision_s.ep.rosidl_typesupport_fastrtps_c.c
+[21.164s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/_cach2cach_sample_vision_s.ep.rosidl_typesupport_introspection_c.c
+[21.179s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/cach2cach_sample_vision_s__rosidl_typesupport_c.so
+[21.197s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/cach2cach_sample_vision_s__rosidl_typesupport_fastrtps_c.so
+[21.215s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/cach2cach_sample_vision_s__rosidl_typesupport_introspection_c.so
+[21.228s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/msg/__init__.py
+[21.246s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/msg/_sample_observation.py
+[21.261s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/msg/_sample_observation_array.py
+[21.275s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/msg/_sample_observation_array_s.c
+[21.290s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/msg/_sample_observation_s.c
+[21.310s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/cach2cach_sample_vision_s__rosidl_typesupport_fastrtps_c.so
+[21.311s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/cach2cach_sample_vision_s__rosidl_typesupport_introspection_c.so
+[21.311s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/cach2cach_sample_vision_s__rosidl_typesupport_c.so
+[21.312s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/ament_index/resource_index/rust_packages/cach2cach_sample_vision
+[21.329s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/rust/Cargo.toml
+[21.356s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/rust/build.rs
+[21.376s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/rust/src/lib.rs
+[21.394s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/rust/src/msg.rs
+[21.416s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/rust/src/msg/rmw.rs
+[21.437s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/msg/SampleObservation.idl
+[21.459s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/msg/SampleObservationArray.idl
+[21.485s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/msg/SampleObservation.msg
+[21.508s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/msg/SampleObservationArray.msg
+[21.531s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/cach2cach_sample_vision/barcode_detector
+[21.551s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/cach2cach_sample_vision/sample_registry.py
+[21.574s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/launch/sample_vision.launch.py
+[21.597s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/ament_index/resource_index/package_run_dependencies/cach2cach_sample_vision
+[21.611s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/ament_index/resource_index/parent_prefix_path/cach2cach_sample_vision
+[21.628s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/environment/ament_prefix_path.sh
+[21.648s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/environment/ament_prefix_path.dsv
+[21.665s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/environment/path.sh
+[21.685s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/environment/path.dsv
+[21.706s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/local_setup.bash
+[21.724s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/local_setup.sh
+[21.745s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/local_setup.zsh
+[21.767s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/local_setup.dsv
+[21.787s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/package.dsv
+[21.803s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/ament_index/resource_index/packages/cach2cach_sample_vision
+[21.816s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/rosidl_cmake-extras.cmake
+[21.838s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.853s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.871s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/ament_cmake_export_libraries-extras.cmake
+[21.889s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/ament_cmake_export_targets-extras.cmake
+[21.908s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[21.927s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[21.945s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[21.962s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/cach2cach_sample_visionConfig.cmake
+[21.983s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/cach2cach_sample_visionConfig-version.cmake
+[22.001s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/package.xml
+[22.023s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/libcach2cach_sample_vision__rosidl_generator_c.so
+[22.023s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/cach2cach_sample_vision/lib/libcach2cach_sample_vision__rosidl_generator_c.so" to ""
+[22.023s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/libcach2cach_sample_vision__rosidl_typesupport_fastrtps_c.so
+[22.024s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/cach2cach_sample_vision/lib/libcach2cach_sample_vision__rosidl_typesupport_fastrtps_c.so" to ""
+[22.024s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/libcach2cach_sample_vision__rosidl_typesupport_fastrtps_cpp.so
+[22.025s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/cach2cach_sample_vision/lib/libcach2cach_sample_vision__rosidl_typesupport_fastrtps_cpp.so" to ""
+[22.025s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/libcach2cach_sample_vision__rosidl_typesupport_introspection_c.so
+[22.026s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/cach2cach_sample_vision/lib/libcach2cach_sample_vision__rosidl_typesupport_introspection_c.so" to ""
+[22.026s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/libcach2cach_sample_vision__rosidl_typesupport_c.so
+[22.027s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/cach2cach_sample_vision/lib/libcach2cach_sample_vision__rosidl_typesupport_c.so" to ""
+[22.027s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/libcach2cach_sample_vision__rosidl_typesupport_introspection_cpp.so
+[22.028s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/cach2cach_sample_vision/lib/libcach2cach_sample_vision__rosidl_typesupport_introspection_cpp.so" to ""
+[22.028s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/libcach2cach_sample_vision__rosidl_typesupport_cpp.so
+[22.029s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/cach2cach_sample_vision/lib/libcach2cach_sample_vision__rosidl_typesupport_cpp.so" to ""
+[22.141s] Listing '/root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision'...
+[22.141s] Compiling '/root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/__init__.py'...
+[22.141s] Listing '/root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/msg'...
+[22.141s] Compiling '/root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/msg/__init__.py'...
+[22.141s] Compiling '/root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/msg/_sample_observation.py'...
+[22.141s] Compiling '/root/cach2cach_ws/install/cach2cach_sample_vision/lib/python3.12/site-packages/cach2cach_sample_vision/msg/_sample_observation_array.py'...
+[22.151s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/lib/libcach2cach_sample_vision__rosidl_generator_py.so
+[22.152s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/cach2cach_sample_vision/lib/libcach2cach_sample_vision__rosidl_generator_py.so" to ""
+[22.152s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/export_cach2cach_sample_vision__rosidl_generator_cExport.cmake
+[22.152s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/export_cach2cach_sample_vision__rosidl_generator_cExport-noconfig.cmake
+[22.152s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/export_cach2cach_sample_vision__rosidl_typesupport_fastrtps_cExport.cmake
+[22.153s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/export_cach2cach_sample_vision__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[22.153s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/export_cach2cach_sample_vision__rosidl_generator_cppExport.cmake
+[22.153s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/export_cach2cach_sample_vision__rosidl_typesupport_fastrtps_cppExport.cmake
+[22.153s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/export_cach2cach_sample_vision__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[22.154s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/cach2cach_sample_vision__rosidl_typesupport_introspection_cExport.cmake
+[22.154s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/cach2cach_sample_vision__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[22.154s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/cach2cach_sample_vision__rosidl_typesupport_cExport.cmake
+[22.154s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/cach2cach_sample_vision__rosidl_typesupport_cExport-noconfig.cmake
+[22.154s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/cach2cach_sample_vision__rosidl_typesupport_introspection_cppExport.cmake
+[22.154s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/cach2cach_sample_vision__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[22.154s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/cach2cach_sample_vision__rosidl_typesupport_cppExport.cmake
+[22.154s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/cach2cach_sample_vision__rosidl_typesupport_cppExport-noconfig.cmake
+[22.155s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/export_cach2cach_sample_vision__rosidl_generator_pyExport.cmake
+[22.155s] -- Installing: /root/cach2cach_ws/install/cach2cach_sample_vision/share/cach2cach_sample_vision/cmake/export_cach2cach_sample_vision__rosidl_generator_pyExport-noconfig.cmake
+[22.157s] Invoked command in '/root/cach2cach_ws/build/cach2cach_sample_vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/cach2cach_ws/build/cach2cach_sample_vision

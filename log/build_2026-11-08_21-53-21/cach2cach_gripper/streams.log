@@ -1,0 +1,47 @@
+[0.018s] Invoking command in '/root/cach2cach_ws/build/cach2cach_gripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/cach2cach_ws/src/cach2cach_gripper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/cach2cach_ws/install/cach2cach_gripper
+[0.133s] -- The C compiler identification is GNU 13.3.0
+[0.213s] -- The CXX compiler identification is GNU 13.3.0
+[0.233s] -- Detecting C compiler ABI info
+[0.336s] -- Detecting C compiler ABI info - done
+[0.345s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.346s] -- Detecting C compile features
+[0.347s] -- Detecting C compile features - done
+[0.355s] -- Detecting CXX compiler ABI info
+[0.465s] -- Detecting CXX compiler ABI info - done
+[0.471s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.471s] -- Detecting CXX compile features
+[0.476s] -- Detecting CXX compile features - done
+[0.486s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.663s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.749s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.820s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.941s] -- Added test 'lint_cmake' to check CMake code style
+[0.943s] -- Added test 'xmllint' to check XML markup files
+[0.944s] -- Configuring done (0.9s)
+[0.947s] -- Generating done (0.0s)
+[0.949s] -- Build files have been written to: /root/cach2cach_ws/build/cach2cach_gripper
+[0.952s] Invoked command in '/root/cach2cach_ws/build/cach2cach_gripper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/cach2cach_ws/src/cach2cach_gripper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/cach2cach_ws/install/cach2cach_gripper
+[0.953s] Invoking command in '/root/cach2cach_ws/build/cach2cach_gripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/cach2cach_ws/build/cach2cach_gripper -- -j28 -l28
+[0.995s] Invoked command in '/root/cach2cach_ws/build/cach2cach_gripper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/cach2cach_ws/build/cach2cach_gripper -- -j28 -l28
+[1.002s] Invoking command in '/root/cach2cach_ws/build/cach2cach_gripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/cach2cach_ws/build/cach2cach_gripper
+[1.010s] -- Install configuration: ""
+[1.010s] -- Execute custom install script
+[1.011s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/cach2cach_gripper/urdf/cach2cach_gripper.xacro
+[1.020s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/cach2cach_gripper/urdf/test_gripper.urdf.xacro
+[1.029s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/cach2cach_gripper/models/cach2cach_parallel_gripper/model.sdf
+[1.041s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/ament_index/resource_index/package_run_dependencies/cach2cach_gripper
+[1.048s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/ament_index/resource_index/parent_prefix_path/cach2cach_gripper
+[1.058s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/cach2cach_gripper/environment/ament_prefix_path.sh
+[1.066s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/cach2cach_gripper/environment/ament_prefix_path.dsv
+[1.079s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/cach2cach_gripper/environment/path.sh
+[1.086s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/cach2cach_gripper/environment/path.dsv
+[1.094s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/cach2cach_gripper/local_setup.bash
+[1.102s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/cach2cach_gripper/local_setup.sh
+[1.114s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/cach2cach_gripper/local_setup.zsh
+[1.122s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/cach2cach_gripper/local_setup.dsv
+[1.131s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/cach2cach_gripper/package.dsv
+[1.139s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/ament_index/resource_index/packages/cach2cach_gripper
+[1.146s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/cach2cach_gripper/cmake/cach2cach_gripperConfig.cmake
+[1.155s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/cach2cach_gripper/cmake/cach2cach_gripperConfig-version.cmake
+[1.161s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_gripper/share/cach2cach_gripper/package.xml
+[1.170s] Invoked command in '/root/cach2cach_ws/build/cach2cach_gripper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/cach2cach_ws/build/cach2cach_gripper

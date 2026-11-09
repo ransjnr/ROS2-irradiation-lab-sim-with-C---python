@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/base_placement_optimizer__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_placement_optimizer/action/detail/optimize_placement__type_support.c.o"
+  "CMakeFiles/base_placement_optimizer__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_placement_optimizer/action/detail/optimize_placement__type_support.c.o.d"
+  "libbase_placement_optimizer__rosidl_typesupport_introspection_c.pdb"
+  "libbase_placement_optimizer__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/base_placement_optimizer/action/detail/optimize_placement__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/base_placement_optimizer/action/detail/optimize_placement__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/base_placement_optimizer__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

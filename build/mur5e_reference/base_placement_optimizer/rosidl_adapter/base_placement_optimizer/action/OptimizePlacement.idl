@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from base_placement_optimizer/action/OptimizePlacement.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module base_placement_optimizer {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct OptimizePlacement_Goal {
+      geometry_msgs::msg::PoseStamped target_pose;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct OptimizePlacement_Result {
+      boolean success;
+
+      string error_reason;
+
+      geometry_msgs::msg::PoseStamped base_pose;
+
+      float manipulability_score;
+
+      float path_distance;
+
+      float composite_score;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct OptimizePlacement_Feedback {
+      string current_phase;
+    };
+  };
+};

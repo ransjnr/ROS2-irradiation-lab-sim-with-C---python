@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/pick_place_orchestrator__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pick_place_orchestrator/action/detail/pick_place_mission__type_support.cpp.o"
+  "CMakeFiles/pick_place_orchestrator__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pick_place_orchestrator/action/detail/pick_place_mission__type_support.cpp.o.d"
+  "libpick_place_orchestrator__rosidl_typesupport_introspection_cpp.pdb"
+  "libpick_place_orchestrator__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/pick_place_orchestrator/action/detail/pick_place_mission__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/pick_place_orchestrator/action/detail/pick_place_mission__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/pick_place_orchestrator__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

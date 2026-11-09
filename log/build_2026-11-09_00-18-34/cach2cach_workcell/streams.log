@@ -1,0 +1,38 @@
+[0.024s] Invoking command in '/root/cach2cach_ws/build/cach2cach_workcell': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/cach2cach_ws/build/cach2cach_workcell -- -j28 -l28
+[0.063s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.398s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.533s] -- Configuring done (0.5s)
+[0.536s] -- Generating done (0.0s)
+[0.538s] -- Build files have been written to: /root/cach2cach_ws/build/cach2cach_workcell
+[0.578s] Invoked command in '/root/cach2cach_ws/build/cach2cach_workcell' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/cach2cach_ws/build/cach2cach_workcell -- -j28 -l28
+[0.579s] Invoking command in '/root/cach2cach_ws/build/cach2cach_workcell': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/cach2cach_ws/build/cach2cach_workcell
+[0.590s] -- Install configuration: ""
+[0.591s] -- Execute custom install script
+[0.592s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/config/controllers.yaml
+[0.593s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/launch/__pycache__/cach2cach.launch.cpython-314.pyc
+[0.593s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/launch/cach2cach.launch.py
+[0.593s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/launch/mobile_navigation.launch.py
+[0.605s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/maps/lab_map.pgm
+[0.622s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/maps/lab_map.yaml
+[0.634s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/urdf/cach2cach_gripper.xacro
+[0.634s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/urdf/cach2cach_ur5e.urdf.xacro
+[0.635s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/urdf/ros2_control.xacro
+[0.635s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/worlds/cach2cach_lab.sdf
+[0.635s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_workcell/lib/cach2cach_workcell/station_route.py
+[0.648s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/lib/cach2cach_workcell/add_collision_objects.py
+[0.648s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/ament_index/resource_index/package_run_dependencies/cach2cach_workcell
+[0.648s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/ament_index/resource_index/parent_prefix_path/cach2cach_workcell
+[0.649s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/environment/ament_prefix_path.sh
+[0.649s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/environment/ament_prefix_path.dsv
+[0.649s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/environment/path.sh
+[0.650s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/environment/path.dsv
+[0.650s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/local_setup.bash
+[0.650s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/local_setup.sh
+[0.650s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/local_setup.zsh
+[0.650s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/local_setup.dsv
+[0.651s] -- Symlinking: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/package.dsv
+[0.667s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/ament_index/resource_index/packages/cach2cach_workcell
+[0.668s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/cmake/cach2cach_workcellConfig.cmake
+[0.668s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/cmake/cach2cach_workcellConfig-version.cmake
+[0.668s] -- Up-to-date symlink: /root/cach2cach_ws/install/cach2cach_workcell/share/cach2cach_workcell/package.xml
+[0.694s] Invoked command in '/root/cach2cach_ws/build/cach2cach_workcell' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/cach2cach_ws/build/cach2cach_workcell

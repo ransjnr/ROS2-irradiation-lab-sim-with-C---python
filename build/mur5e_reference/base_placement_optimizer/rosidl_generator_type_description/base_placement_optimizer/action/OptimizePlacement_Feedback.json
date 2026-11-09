@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "base_placement_optimizer/action/OptimizePlacement_Feedback",
+      "fields": [
+        {
+          "name": "current_phase",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "base_placement_optimizer/action/OptimizePlacement_Feedback",
+      "hash_string": "RIHS01_eeaec70890e23f22dc881416c743c0c9f7a775a95f4a6742d83354b18253e7fc"
+    }
+  ]
+}

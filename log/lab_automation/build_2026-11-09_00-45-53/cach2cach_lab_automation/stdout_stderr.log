@@ -1,0 +1,41 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation
+[100%] Built target sample_mission_supervisor
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib/cach2cach_lab_automation/sample_mission_supervisor
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib/cach2cach_lab_automation/barcode_detector.py
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib/cach2cach_lab_automation/sample_pose_estimator.py
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/config/sample_registry.json
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/config/sample_world_poses.json
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/launch/barcode_pipeline.launch.py
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/launch/irradiation_lab_simulation.launch.py
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/launch/lab_bringup.launch.py
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/worlds/irradiation_lab.sdf
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/ament_index/resource_index/package_run_dependencies/cach2cach_lab_automation
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/ament_index/resource_index/parent_prefix_path/cach2cach_lab_automation
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/environment/path.sh
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/environment/path.dsv
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/local_setup.bash
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/local_setup.sh
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/local_setup.zsh
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/local_setup.dsv
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.dsv
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/ament_index/resource_index/packages/cach2cach_lab_automation
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/cmake/cach2cach_lab_automationConfig.cmake
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/cmake/cach2cach_lab_automationConfig-version.cmake
+-- Up-to-date symlink: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.xml

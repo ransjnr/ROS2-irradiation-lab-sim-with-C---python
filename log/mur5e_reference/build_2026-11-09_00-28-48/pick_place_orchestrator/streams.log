@@ -1,0 +1,452 @@
+[0.023s] Invoking command in '/root/cach2cach_ws/build/mur5e_reference/pick_place_orchestrator': AMENT_PREFIX_PATH=/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_moveit_config:/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_description:/root/cach2cach_ws/install/mur5e_reference/ur_description:/root/cach2cach_ws/install/mur5e_reference/mir_description:/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_moveit_config:/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_description:/root/cach2cach_ws/install/mur5e_reference/ur_description:/root/cach2cach_ws/install/mur5e_reference/mir_description:/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator
+[0.107s] -- The C compiler identification is GNU 13.3.0
+[0.190s] -- The CXX compiler identification is GNU 13.3.0
+[0.218s] -- Detecting C compiler ABI info
+[0.362s] -- Detecting C compiler ABI info - done
+[0.376s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.376s] -- Detecting C compile features
+[0.377s] -- Detecting C compile features - done
+[0.395s] -- Detecting CXX compiler ABI info
+[0.550s] -- Detecting CXX compiler ABI info - done
+[0.564s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.565s] -- Detecting CXX compile features
+[0.565s] -- Detecting CXX compile features - done
+[0.574s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.815s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.922s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.021s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.112s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.140s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.206s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.343s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.350s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.500s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.532s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.571s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.708s] -- Found rclcpp_action: 28.1.21 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.781s] -- Found rclcpp_components: 28.1.21 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.844s] -- Found behaviortree_cpp: 4.10.0 (/opt/ros/jazzy/share/behaviortree_cpp/cmake)
+[1.852s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.904s] -- Found moveit_ros_planning_interface: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[2.096s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[2.435s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.557s] -- Found tcb_span: 1.3.2 (/opt/ros/jazzy/share/tcb_span/cmake)
+[2.571s] -- Found rclcpp_lifecycle: 28.1.21 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.625s] -- Found parameter_traits: 0.7.6 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[2.747s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.747s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.953s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[3.029s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[3.074s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[3.136s] -- Found base_placement_optimizer: 0.0.0 (/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake)
+[3.233s] -- Found nav2_msgs: 1.3.13 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[3.359s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.402s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.410s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[4.304s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.525s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.988s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.997s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.207s] -- Found PythonExtra: /usr/bin/python3  
+[6.887s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.060s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.070s] CMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[7.070s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[7.070s]   rosidl_target_interfaces().  i.e:
+[7.071s] 
+[7.071s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[7.071s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[7.071s] 
+[7.071s] Call Stack (most recent call first):
+[7.071s]   CMakeLists.txt:72 (rosidl_target_interfaces)
+[7.071s] 
+[7.071s] 
+[7.073s] CMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[7.073s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[7.074s]   rosidl_target_interfaces().  i.e:
+[7.074s] 
+[7.074s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[7.074s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[7.074s] 
+[7.074s] Call Stack (most recent call first):
+[7.074s]   CMakeLists.txt:88 (rosidl_target_interfaces)
+[7.074s] 
+[7.074s] 
+[7.082s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.136s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.143s] -- Found Threads: TRUE  
+[7.188s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.190s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include>;/root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include
+[7.190s] -- Configured cppcheck exclude dirs and/or files: 
+[7.191s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.191s] -- Configured 'flake8' exclude dirs and/or files: 
+[7.193s] -- Added test 'lint_cmake' to check CMake code style
+[7.194s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.197s] -- Added test 'uncrustify' to check C / C++ code style
+[7.197s] -- Configured uncrustify additional arguments: 
+[7.198s] -- Added test 'xmllint' to check XML markup files
+[7.203s] -- Configuring done (7.2s)
+[7.422s] -- Generating done (0.2s)
+[7.480s] -- Build files have been written to: /root/cach2cach_ws/build/mur5e_reference/pick_place_orchestrator
+[7.503s] Invoked command in '/root/cach2cach_ws/build/mur5e_reference/pick_place_orchestrator' returned '0': AMENT_PREFIX_PATH=/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_moveit_config:/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_description:/root/cach2cach_ws/install/mur5e_reference/ur_description:/root/cach2cach_ws/install/mur5e_reference/mir_description:/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_moveit_config:/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_description:/root/cach2cach_ws/install/mur5e_reference/ur_description:/root/cach2cach_ws/install/mur5e_reference/mir_description:/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator
+[7.504s] Invoking command in '/root/cach2cach_ws/build/mur5e_reference/pick_place_orchestrator': AMENT_PREFIX_PATH=/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_moveit_config:/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_description:/root/cach2cach_ws/install/mur5e_reference/ur_description:/root/cach2cach_ws/install/mur5e_reference/mir_description:/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_moveit_config:/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_description:/root/cach2cach_ws/install/mur5e_reference/ur_description:/root/cach2cach_ws/install/mur5e_reference/mir_description:/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/cach2cach_ws/build/mur5e_reference/pick_place_orchestrator -- -j28 -l28
+[7.601s] [  1%] Building CXX object CMakeFiles/orchestrator_node.dir/rclcpp_components/node_main_orchestrator_node.cpp.o
+[7.604s] [  4%] Generating type hashes for ROS interfaces
+[7.604s] [  4%] Generating Rust code for ROS interfaces
+[7.605s] [  7%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[7.605s] [  7%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[7.618s] [  7%] Built target ament_cmake_python_symlink_pick_place_orchestrator
+[7.863s] [  7%] Built target pick_place_orchestrator__rosidl_generator_type_description
+[7.871s] running egg_info
+[7.872s] creating pick_place_orchestrator.egg-info
+[7.881s] [  8%] Generating C code for ROS interfaces
+[7.891s] writing pick_place_orchestrator.egg-info/PKG-INFO
+[7.891s] writing dependency_links to pick_place_orchestrator.egg-info/dependency_links.txt
+[7.891s] writing top-level names to pick_place_orchestrator.egg-info/top_level.txt
+[7.891s] writing manifest file 'pick_place_orchestrator.egg-info/SOURCES.txt'
+[7.895s] [ 10%] Generating C++ code for ROS interfaces
+[7.929s] [ 10%] Built target pick_place_orchestrator__rs
+[7.946s] reading manifest file 'pick_place_orchestrator.egg-info/SOURCES.txt'
+[7.947s] writing manifest file 'pick_place_orchestrator.egg-info/SOURCES.txt'
+[7.984s] [ 10%] Built target ament_cmake_python_build_pick_place_orchestrator_egg
+[8.368s] [ 10%] Built target pick_place_orchestrator__cpp
+[8.404s] [ 11%] Building C object CMakeFiles/pick_place_orchestrator__rosidl_generator_c.dir/rosidl_generator_c/pick_place_orchestrator/action/detail/pick_place_mission__type_support.c.o
+[8.406s] [ 14%] Building C object CMakeFiles/pick_place_orchestrator__rosidl_generator_c.dir/rosidl_generator_c/pick_place_orchestrator/action/detail/pick_place_mission__functions.c.o
+[8.406s] [ 14%] Building C object CMakeFiles/pick_place_orchestrator__rosidl_generator_c.dir/rosidl_generator_c/pick_place_orchestrator/action/detail/pick_place_mission__description.c.o
+[8.484s] [ 16%] Linking CXX static library libgtest_main.a
+[8.530s] [ 16%] Built target gtest_main
+[8.609s] [ 17%] Linking C shared library libpick_place_orchestrator__rosidl_generator_c.so
+[8.665s] [ 17%] Built target pick_place_orchestrator__rosidl_generator_c
+[8.683s] [ 23%] Generating C type support for eProsima Fast-RTPS
+[8.683s] [ 23%] Generating C++ introspection for ROS interfaces
+[8.683s] [ 23%] Generating C++ type support for eProsima Fast-RTPS
+[8.684s] [ 25%] Generating C introspection for ROS interfaces
+[8.684s] [ 26%] Generating C type support dispatch for ROS interfaces
+[8.684s] [ 26%] Generating C++ type support dispatch for ROS interfaces
+[9.012s] [ 27%] Building CXX object CMakeFiles/pick_place_orchestrator__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pick_place_orchestrator/action/pick_place_mission__type_support.cpp.o
+[9.013s] [ 29%] Building CXX object CMakeFiles/pick_place_orchestrator__rosidl_typesupport_c.dir/rosidl_typesupport_c/pick_place_orchestrator/action/pick_place_mission__type_support.cpp.o
+[9.086s] [ 30%] Building CXX object CMakeFiles/pick_place_orchestrator__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pick_place_orchestrator/action/detail/pick_place_mission__type_support.cpp.o
+[9.087s] [ 32%] Linking CXX shared library libpick_place_orchestrator__rosidl_typesupport_c.so
+[9.088s] [ 33%] Building C object CMakeFiles/pick_place_orchestrator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pick_place_orchestrator/action/detail/pick_place_mission__type_support.c.o
+[9.151s] [ 33%] Built target pick_place_orchestrator__rosidl_typesupport_c
+[9.181s] [ 35%] Linking C shared library libpick_place_orchestrator__rosidl_typesupport_introspection_c.so
+[9.201s] [ 36%] Building CXX object CMakeFiles/pick_place_orchestrator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pick_place_orchestrator/action/detail/dds_fastrtps/pick_place_mission__type_support.cpp.o
+[9.233s] [ 36%] Built target pick_place_orchestrator__rosidl_typesupport_introspection_c
+[9.244s] [ 38%] Building CXX object CMakeFiles/pick_place_orchestrator__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pick_place_orchestrator/action/detail/pick_place_mission__type_support_c.cpp.o
+[9.730s] [ 39%] Linking CXX shared library libpick_place_orchestrator__rosidl_typesupport_cpp.so
+[9.828s] [ 39%] Built target pick_place_orchestrator__rosidl_typesupport_cpp
+[9.875s] [ 41%] Linking CXX shared library libpick_place_orchestrator__rosidl_typesupport_introspection_cpp.so
+[9.877s] [ 42%] Linking CXX shared library libpick_place_orchestrator__rosidl_typesupport_fastrtps_c.so
+[9.970s] [ 42%] Built target pick_place_orchestrator__rosidl_typesupport_fastrtps_c
+[9.977s] [ 42%] Built target pick_place_orchestrator__rosidl_typesupport_introspection_cpp
+[10.282s] [ 44%] Linking CXX shared library libpick_place_orchestrator__rosidl_typesupport_fastrtps_cpp.so
+[10.383s] [ 44%] Built target pick_place_orchestrator__rosidl_typesupport_fastrtps_cpp
+[10.410s] [ 44%] Built target pick_place_orchestrator
+[10.443s] [ 45%] Building CXX object CMakeFiles/pick_place_orchestrator_lib.dir/src/behavior_tree_engine.cpp.o
+[10.444s] [ 48%] Building CXX object CMakeFiles/pick_place_orchestrator_lib.dir/src/behavior_tree_nodes/move_arm_action.cpp.o
+[10.444s] [ 48%] Building CXX object CMakeFiles/pick_place_orchestrator_lib.dir/src/behavior_tree_nodes/payload_actions.cpp.o
+[10.445s] [ 50%] Building CXX object CMakeFiles/pick_place_orchestrator_lib.dir/src/behavior_tree_nodes/gripper_control_action.cpp.o
+[10.445s] [ 52%] Building CXX object CMakeFiles/mission_trigger_node.dir/src/mission_trigger_node.cpp.o
+[10.445s] [ 52%] Generating Python code for ROS interfaces
+[10.446s] [ 54%] Building CXX object CMakeFiles/pick_place_orchestrator_lib.dir/src/behavior_tree_nodes/visual_servo_action.cpp.o
+[10.446s] [ 55%] Building CXX object CMakeFiles/pick_place_orchestrator_lib.dir/src/orchestrator_node.cpp.o
+[10.447s] [ 57%] Building CXX object CMakeFiles/pick_place_orchestrator_lib.dir/src/behavior_tree_nodes/target_acquisition.cpp.o
+[10.447s] [ 58%] Building CXX object CMakeFiles/pick_place_orchestrator_lib.dir/src/behavior_tree_nodes/optimize_pose_action.cpp.o
+[10.447s] [ 60%] Building CXX object CMakeFiles/pick_place_orchestrator_lib.dir/src/behavior_tree_nodes/navigate_to_pose_action.cpp.o
+[10.450s] [ 61%] Building CXX object CMakeFiles/pick_place_orchestrator_lib.dir/src/behavior_tree_nodes/check_pose_condition.cpp.o
+[10.996s] [ 63%] Linking CXX executable orchestrator_node
+[11.160s] [ 63%] Built target orchestrator_node
+[11.224s] [ 63%] Built target pick_place_orchestrator__py
+[11.257s] [ 64%] Building C object CMakeFiles/pick_place_orchestrator__rosidl_generator_py.dir/rosidl_generator_py/pick_place_orchestrator/action/_pick_place_mission_s.c.o
+[11.520s] [ 66%] Linking C shared library libpick_place_orchestrator__rosidl_generator_py.so
+[11.592s] [ 66%] Built target pick_place_orchestrator__rosidl_generator_py
+[11.625s] [ 67%] Building C object CMakeFiles/pick_place_orchestrator_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/pick_place_orchestrator/_pick_place_orchestrator_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[11.625s] [ 69%] Building C object CMakeFiles/pick_place_orchestrator_s__rosidl_typesupport_c.dir/rosidl_generator_py/pick_place_orchestrator/_pick_place_orchestrator_s.ep.rosidl_typesupport_c.c.o
+[11.625s] [ 70%] Building C object CMakeFiles/pick_place_orchestrator_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/pick_place_orchestrator/_pick_place_orchestrator_s.ep.rosidl_typesupport_introspection_c.c.o
+[11.780s] [ 72%] Linking C shared module rosidl_generator_py/pick_place_orchestrator/pick_place_orchestrator_s__rosidl_typesupport_c.so
+[11.786s] [ 73%] Linking C shared module rosidl_generator_py/pick_place_orchestrator/pick_place_orchestrator_s__rosidl_typesupport_introspection_c.so
+[11.827s] [ 73%] Built target pick_place_orchestrator_s__rosidl_typesupport_c
+[11.847s] [ 73%] Built target pick_place_orchestrator_s__rosidl_typesupport_introspection_c
+[11.852s] [ 75%] Linking C shared module rosidl_generator_py/pick_place_orchestrator/pick_place_orchestrator_s__rosidl_typesupport_fastrtps_c.so
+[11.901s] [ 76%] Linking CXX static library libgtest.a
+[11.904s] [ 76%] Built target pick_place_orchestrator_s__rosidl_typesupport_fastrtps_c
+[11.988s] [ 76%] Built target gtest
+[14.202s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:14,
+[14.203s]                  from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/src/behavior_tree_nodes/optimize_pose_action.cpp:1:
+[14.203s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[14.203s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[14.203s]       |                                                                             ^
+[14.218s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:14,
+[14.218s]                  from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/src/behavior_tree_nodes/gripper_control_action.cpp:1:
+[14.218s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[14.218s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[14.218s]       |                                                                             ^
+[14.254s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:14,
+[14.254s]                  from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/src/behavior_tree_nodes/target_acquisition.cpp:1:
+[14.254s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[14.254s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[14.254s]       |                                                                             ^
+[14.377s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:14,
+[14.377s]                  from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/src/behavior_tree_engine.cpp:2:
+[14.378s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[14.378s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[14.378s]       |                                                                             ^
+[14.453s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:14,
+[14.453s]                  from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/src/behavior_tree_nodes/navigate_to_pose_action.cpp:1:
+[14.453s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[14.453s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[14.453s]       |                                                                             ^
+[14.533s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:14,
+[14.533s]                  from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/src/behavior_tree_nodes/payload_actions.cpp:1:
+[14.533s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[14.533s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[14.533s]       |                                                                             ^
+[15.378s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:14,
+[15.378s]                  from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/src/behavior_tree_nodes/move_arm_action.cpp:1:
+[15.378s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[15.379s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[15.379s]       |                                                                             ^
+[15.504s] [ 77%] Linking CXX executable mission_trigger_node
+[15.778s] [ 77%] Built target mission_trigger_node
+[15.872s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:15:
+[15.872s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[15.872s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[15.872s]       |                                                                             ^
+[15.882s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:15:
+[15.882s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[15.883s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[15.883s]       |                                                                             ^
+[15.909s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:15:
+[15.909s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[15.909s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[15.909s]       |                                                                             ^
+[15.993s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:14,
+[15.993s]                  from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/src/behavior_tree_nodes/check_pose_condition.cpp:1:
+[15.993s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[15.993s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[15.993s]       |                                                                             ^
+[16.046s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:15:
+[16.046s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[16.046s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[16.047s]       |                                                                             ^
+[16.163s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:15:
+[16.163s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[16.163s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[16.163s]       |                                                                             ^
+[16.276s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:14,
+[16.276s]                  from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/src/behavior_tree_nodes/visual_servo_action.cpp:1:
+[16.276s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[16.276s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[16.276s]       |                                                                             ^
+[16.422s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:15:
+[16.422s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[16.422s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[16.422s]       |                                                                             ^
+[17.017s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:15:
+[17.017s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[17.017s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[17.017s]       |                                                                             ^
+[18.378s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:15:
+[18.378s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[18.378s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[18.378s]       |                                                                             ^
+[18.440s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:15:
+[18.440s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[18.440s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[18.441s]       |                                                                             ^
+[19.875s] /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/src/behavior_tree_nodes/visual_servo_action.cpp: In member function ‘virtual BT::NodeStatus pick_place_orchestrator::VisualServoAction::onRunning()’:
+[19.876s] /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/src/behavior_tree_nodes/visual_servo_action.cpp:471:54: warning: ‘double moveit::planning_interface::MoveGroupInterface::computeCartesianPath(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)’ is deprecated: Drop jump_threshold [-Wdeprecated-declarations]
+[19.876s]   471 |   double fraction = move_group_->computeCartesianPath(
+[19.876s]       |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[19.876s]   472 |     waypoints, eef_step, jump_thresh, trajectory);
+[19.876s]       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
+[19.876s] In file included from /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:52:
+[19.876s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3: note: declared here
+[19.877s]   765 |   computeCartesianPath(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+[19.877s]       |   ^~~~~~~~~~~~~~~~~~~~
+[35.655s] [ 79%] Linking CXX shared library libpick_place_orchestrator_lib.so
+[37.217s] [ 79%] Built target pick_place_orchestrator_lib
+[37.254s] [ 80%] Building CXX object CMakeFiles/test_deterministic_joint_space.dir/test/test_deterministic_joint_space.cpp.o
+[37.254s] [ 82%] Building CXX object CMakeFiles/test_end_to_end_mission.dir/test/test_end_to_end_mission.cpp.o
+[37.256s] [ 83%] Building CXX object CMakeFiles/test_cartesian_constraints.dir/test/test_cartesian_constraints.cpp.o
+[37.257s] [ 85%] Building CXX object CMakeFiles/test_payload_attachment.dir/test/test_payload_attachment.cpp.o
+[37.261s] [ 86%] Building CXX object CMakeFiles/test_pick_isolation.dir/test/test_pick_isolation.cpp.o
+[37.262s] [ 89%] Building CXX object CMakeFiles/test_failure_recovery.dir/test/test_failure_recovery.cpp.o
+[37.262s] [ 89%] Building CXX object CMakeFiles/test_planning_fallback.dir/test/test_planning_fallback.cpp.o
+[41.711s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:14,
+[41.711s]                  from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/test/test_payload_attachment.cpp:14:
+[41.711s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[41.711s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[41.711s]       |                                                                             ^
+[42.146s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:14,
+[42.147s]                  from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/test/test_deterministic_joint_space.cpp:24:
+[42.147s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[42.147s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[42.147s]       |                                                                             ^
+[42.177s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:14,
+[42.177s]                  from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/test/test_planning_fallback.cpp:24:
+[42.177s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[42.177s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[42.178s]       |                                                                             ^
+[42.266s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:14,
+[42.266s]                  from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/test/test_cartesian_constraints.cpp:24:
+[42.266s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[42.266s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[42.267s]       |                                                                             ^
+[42.748s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:15:
+[42.748s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[42.749s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[42.749s]       |                                                                             ^
+[43.222s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:15:
+[43.222s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[43.223s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[43.223s]       |                                                                             ^
+[43.238s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:15:
+[43.238s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[43.238s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[43.238s]       |                                                                             ^
+[43.333s] In file included from /root/cach2cach_ws/third_party/mur5e_reference/src/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp:15:
+[43.333s] /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77: note: ‘#pragma message: .h header is obsolete. Please use the .hpp header instead.’
+[43.333s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead.")
+[43.333s]       |                                                                             ^
+[49.675s] [ 91%] Linking CXX executable test_payload_attachment
+[51.417s] [ 91%] Built target test_payload_attachment
+[54.290s] [ 92%] Linking CXX executable test_failure_recovery
+[54.331s] [ 94%] Linking CXX executable test_end_to_end_mission
+[54.482s] [ 95%] Linking CXX executable test_pick_isolation
+[55.457s] [ 97%] Linking CXX executable test_deterministic_joint_space
+[55.727s] [ 98%] Linking CXX executable test_planning_fallback
+[55.993s] [100%] Linking CXX executable test_cartesian_constraints
+[57.585s] [100%] Built target test_failure_recovery
+[57.610s] [100%] Built target test_end_to_end_mission
+[57.849s] [100%] Built target test_pick_isolation
+[58.398s] [100%] Built target test_deterministic_joint_space
+[58.571s] [100%] Built target test_planning_fallback
+[58.757s] [100%] Built target test_cartesian_constraints
+[58.781s] Invoked command in '/root/cach2cach_ws/build/mur5e_reference/pick_place_orchestrator' returned '0': AMENT_PREFIX_PATH=/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_moveit_config:/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_description:/root/cach2cach_ws/install/mur5e_reference/ur_description:/root/cach2cach_ws/install/mur5e_reference/mir_description:/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_moveit_config:/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_description:/root/cach2cach_ws/install/mur5e_reference/ur_description:/root/cach2cach_ws/install/mur5e_reference/mir_description:/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/cach2cach_ws/build/mur5e_reference/pick_place_orchestrator -- -j28 -l28
+[58.783s] Invoking command in '/root/cach2cach_ws/build/mur5e_reference/pick_place_orchestrator': AMENT_PREFIX_PATH=/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_moveit_config:/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_description:/root/cach2cach_ws/install/mur5e_reference/ur_description:/root/cach2cach_ws/install/mur5e_reference/mir_description:/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_moveit_config:/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_description:/root/cach2cach_ws/install/mur5e_reference/ur_description:/root/cach2cach_ws/install/mur5e_reference/mir_description:/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/cach2cach_ws/build/mur5e_reference/pick_place_orchestrator
+[58.798s] -- Install configuration: ""
+[58.799s] -- Execute custom install script
+[58.800s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/ament_index/resource_index/rosidl_interfaces/pick_place_orchestrator
+[58.812s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/action/PickPlaceMission.json
+[58.830s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/action/detail/pick_place_mission__functions.h
+[58.843s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/action/detail/pick_place_mission__struct.h
+[58.859s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/action/detail/pick_place_mission__type_support.h
+[58.871s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/action/pick_place_mission.h
+[58.887s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/msg/rosidl_generator_c__visibility_control.h
+[58.898s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/environment/library_path.sh
+[58.911s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/environment/library_path.dsv
+[58.924s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/action/detail/pick_place_mission__rosidl_typesupport_fastrtps_c.h
+[58.938s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[58.951s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/action/detail/pick_place_mission__builder.hpp
+[58.966s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/action/detail/pick_place_mission__struct.hpp
+[58.979s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/action/detail/pick_place_mission__traits.hpp
+[58.992s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/action/detail/pick_place_mission__type_support.hpp
+[59.006s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/action/pick_place_mission.hpp
+[59.019s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/msg/rosidl_generator_cpp__visibility_control.hpp
+[59.034s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/action/detail/pick_place_mission__rosidl_typesupport_fastrtps_cpp.hpp
+[59.048s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[59.063s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/action/detail/pick_place_mission__rosidl_typesupport_introspection_c.h
+[59.079s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[59.092s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/pick_place_orchestrator/action/detail/pick_place_mission__rosidl_typesupport_introspection_cpp.hpp
+[59.110s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/environment/pythonpath.sh
+[59.124s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/environment/pythonpath.dsv
+[59.137s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator-0.0.0-py3.12.egg-info/PKG-INFO
+[59.151s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator-0.0.0-py3.12.egg-info/SOURCES.txt
+[59.165s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator-0.0.0-py3.12.egg-info/dependency_links.txt
+[59.182s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator-0.0.0-py3.12.egg-info/top_level.txt
+[59.197s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/__init__.py
+[59.211s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/_pick_place_orchestrator_s.ep.rosidl_typesupport_c.c
+[59.224s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/_pick_place_orchestrator_s.ep.rosidl_typesupport_fastrtps_c.c
+[59.239s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/_pick_place_orchestrator_s.ep.rosidl_typesupport_introspection_c.c
+[59.251s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/action/__init__.py
+[59.263s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/action/_pick_place_mission.py
+[59.278s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/action/_pick_place_mission_s.c
+[59.290s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/pick_place_orchestrator_s__rosidl_typesupport_c.so
+[59.305s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/pick_place_orchestrator_s__rosidl_typesupport_fastrtps_c.so
+[59.318s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/pick_place_orchestrator_s__rosidl_typesupport_introspection_c.so
+[59.333s] -- Up-to-date symlink: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/pick_place_orchestrator_s__rosidl_typesupport_fastrtps_c.so
+[59.334s] -- Up-to-date symlink: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/pick_place_orchestrator_s__rosidl_typesupport_introspection_c.so
+[59.334s] -- Up-to-date symlink: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/pick_place_orchestrator_s__rosidl_typesupport_c.so
+[59.334s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/ament_index/resource_index/rust_packages/pick_place_orchestrator
+[59.348s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/rust/Cargo.toml
+[59.362s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/rust/build.rs
+[59.377s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/rust/src/action.rs
+[59.392s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/rust/src/action/rmw.rs
+[59.405s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/rust/src/lib.rs
+[59.420s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/action/PickPlaceMission.idl
+[59.432s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/action/PickPlaceMission.action
+[59.449s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/pick_place_orchestrator/orchestrator_node
+[59.462s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator_lib.so
+[59.478s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/pick_place_orchestrator/mission_trigger_node
+[59.491s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_engine.hpp
+[59.506s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/behavior_tree_nodes.hpp
+[59.519s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/include/pick_place_orchestrator/orchestrator_node.hpp
+[59.535s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/behavior_trees/pick_place_mission.xml
+[59.548s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/launch/orchestrator.launch.py
+[59.561s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/launch/pick_place_mission.launch.py
+[59.574s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/launch/validation.launch.py
+[59.587s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/ament_index/resource_index/package_run_dependencies/pick_place_orchestrator
+[59.601s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/ament_index/resource_index/parent_prefix_path/pick_place_orchestrator
+[59.614s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/environment/ament_prefix_path.sh
+[59.626s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/environment/ament_prefix_path.dsv
+[59.643s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/environment/path.sh
+[59.658s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/environment/path.dsv
+[59.672s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/local_setup.bash
+[59.684s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/local_setup.sh
+[59.701s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/local_setup.zsh
+[59.713s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/local_setup.dsv
+[59.725s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/package.dsv
+[59.739s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/ament_index/resource_index/packages/pick_place_orchestrator
+[59.753s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/ament_index/resource_index/rclcpp_components/pick_place_orchestrator
+[59.767s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/rosidl_cmake-extras.cmake
+[59.780s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.795s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/ament_cmake_export_include_directories-extras.cmake
+[59.809s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/ament_cmake_export_libraries-extras.cmake
+[59.823s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/ament_cmake_export_targets-extras.cmake
+[59.835s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[59.854s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[59.869s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[59.882s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/pick_place_orchestratorConfig.cmake
+[59.895s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/pick_place_orchestratorConfig-version.cmake
+[59.909s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/package.xml
+[59.922s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator__rosidl_generator_c.so
+[59.922s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator__rosidl_generator_c.so" to ""
+[59.922s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator__rosidl_typesupport_fastrtps_c.so
+[59.923s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator__rosidl_typesupport_fastrtps_c.so" to ""
+[59.923s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator__rosidl_typesupport_fastrtps_cpp.so
+[59.923s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator__rosidl_typesupport_fastrtps_cpp.so" to ""
+[59.924s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator__rosidl_typesupport_introspection_c.so
+[59.924s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator__rosidl_typesupport_introspection_c.so" to ""
+[59.924s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator__rosidl_typesupport_c.so
+[59.924s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator__rosidl_typesupport_c.so" to ""
+[59.924s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator__rosidl_typesupport_introspection_cpp.so
+[59.925s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator__rosidl_typesupport_introspection_cpp.so" to ""
+[59.925s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator__rosidl_typesupport_cpp.so
+[59.925s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator__rosidl_typesupport_cpp.so" to ""
+[60.016s] Listing '/root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator'...
+[60.016s] Compiling '/root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/__init__.py'...
+[60.016s] Listing '/root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/action'...
+[60.016s] Compiling '/root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/action/__init__.py'...
+[60.017s] Compiling '/root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/python3.12/site-packages/pick_place_orchestrator/action/_pick_place_mission.py'...
+[60.023s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator__rosidl_generator_py.so
+[60.024s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/lib/libpick_place_orchestrator__rosidl_generator_py.so" to ""
+[60.024s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/export_pick_place_orchestrator__rosidl_generator_cExport.cmake
+[60.024s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/export_pick_place_orchestrator__rosidl_generator_cExport-noconfig.cmake
+[60.024s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/export_pick_place_orchestrator__rosidl_typesupport_fastrtps_cExport.cmake
+[60.024s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/export_pick_place_orchestrator__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[60.025s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/export_pick_place_orchestrator__rosidl_generator_cppExport.cmake
+[60.025s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/export_pick_place_orchestrator__rosidl_typesupport_fastrtps_cppExport.cmake
+[60.025s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/export_pick_place_orchestrator__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[60.025s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/pick_place_orchestrator__rosidl_typesupport_introspection_cExport.cmake
+[60.025s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/pick_place_orchestrator__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[60.025s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/pick_place_orchestrator__rosidl_typesupport_cExport.cmake
+[60.026s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/pick_place_orchestrator__rosidl_typesupport_cExport-noconfig.cmake
+[60.026s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/pick_place_orchestrator__rosidl_typesupport_introspection_cppExport.cmake
+[60.026s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/pick_place_orchestrator__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[60.026s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/pick_place_orchestrator__rosidl_typesupport_cppExport.cmake
+[60.026s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/pick_place_orchestrator__rosidl_typesupport_cppExport-noconfig.cmake
+[60.026s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/export_pick_place_orchestrator__rosidl_generator_pyExport.cmake
+[60.026s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/pick_place_orchestrator/share/pick_place_orchestrator/cmake/export_pick_place_orchestrator__rosidl_generator_pyExport-noconfig.cmake
+[60.028s] Invoked command in '/root/cach2cach_ws/build/mur5e_reference/pick_place_orchestrator' returned '0': AMENT_PREFIX_PATH=/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_moveit_config:/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_description:/root/cach2cach_ws/install/mur5e_reference/ur_description:/root/cach2cach_ws/install/mur5e_reference/mir_description:/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_moveit_config:/root/cach2cach_ws/install/mur5e_reference/mobile_manipulator_description:/root/cach2cach_ws/install/mur5e_reference/ur_description:/root/cach2cach_ws/install/mur5e_reference/mir_description:/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/cach2cach_ws/build/mur5e_reference/pick_place_orchestrator

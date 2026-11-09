@@ -1,0 +1,1 @@
+/root/cach2cach_ws/src/cach2cach_lab_automation/launch/irradiation_lab_simulation.launch.py

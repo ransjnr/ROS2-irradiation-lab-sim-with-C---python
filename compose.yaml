@@ -1,0 +1,20 @@
+
+services:
+  cach2cach:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: cach2cach:jazzy
+    container_name: cach2cach_sim
+    network_mode: host
+    ipc: host
+    environment:
+      DISPLAY: ${DISPLAY}
+      QT_X11_NO_MITSHM: "1"
+      LIBGL_ALWAYS_SOFTWARE: "1"
+    volumes:
+      - ./:/root/cach2cach_ws
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    stdin_open: true
+    tty: true
+    command: /bin/bash

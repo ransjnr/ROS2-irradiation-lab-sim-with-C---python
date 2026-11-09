@@ -1,0 +1,274 @@
+[0.016s] Invoking command in '/root/cach2cach_ws/build/mur5e_reference/base_placement_optimizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/cach2cach_ws/third_party/mur5e_reference/src/base_placement_optimizer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer
+[0.121s] -- The C compiler identification is GNU 13.3.0
+[0.224s] -- The CXX compiler identification is GNU 13.3.0
+[0.257s] -- Detecting C compiler ABI info
+[0.410s] -- Detecting C compiler ABI info - done
+[0.427s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.427s] -- Detecting C compile features
+[0.428s] -- Detecting C compile features - done
+[0.445s] -- Detecting CXX compiler ABI info
+[0.635s] -- Detecting CXX compiler ABI info - done
+[0.657s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.658s] -- Detecting CXX compile features
+[0.659s] -- Detecting CXX compile features - done
+[0.666s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.884s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.988s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.109s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.207s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.237s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.272s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.312s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.467s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.474s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.619s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.655s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.691s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.822s] -- Found rclcpp_action: 28.1.21 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.902s] -- Found rclcpp_components: 28.1.21 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.975s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.073s] -- Found moveit_core: 2.12.4 (/opt/ros/jazzy/share/moveit_core/cmake)
+[2.335s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.482s] -- Found tcb_span: 1.3.2 (/opt/ros/jazzy/share/tcb_span/cmake)
+[2.495s] -- Found rclcpp_lifecycle: 28.1.21 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.554s] -- Found parameter_traits: 0.7.6 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[2.746s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.746s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.181s] -- Found moveit_ros_planning: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning/cmake)
+[3.188s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[3.252s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.293s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.127s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.254s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.681s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.687s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.868s] -- Found PythonExtra: /usr/bin/python3  
+[6.479s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.631s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.639s] CMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[6.639s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[6.639s]   rosidl_target_interfaces().  i.e:
+[6.639s] 
+[6.639s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[6.639s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[6.639s] 
+[6.639s] Call Stack (most recent call first):
+[6.640s]   CMakeLists.txt:43 (rosidl_target_interfaces)
+[6.640s] 
+[6.640s] 
+[6.647s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.697s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.703s] -- Found Threads: TRUE  
+[6.718s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.719s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/cach2cach_ws/third_party/mur5e_reference/src/base_placement_optimizer/include>;/root/cach2cach_ws/third_party/mur5e_reference/src/base_placement_optimizer/include
+[6.719s] -- Configured cppcheck exclude dirs and/or files: 
+[6.721s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.721s] -- Configured 'flake8' exclude dirs and/or files: 
+[6.721s] -- Added test 'lint_cmake' to check CMake code style
+[6.722s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.724s] -- Added test 'uncrustify' to check C / C++ code style
+[6.724s] -- Configured uncrustify additional arguments: 
+[6.725s] -- Added test 'xmllint' to check XML markup files
+[6.730s] -- Configuring done (6.7s)
+[6.835s] -- Generating done (0.1s)
+[6.862s] -- Build files have been written to: /root/cach2cach_ws/build/mur5e_reference/base_placement_optimizer
+[6.881s] Invoked command in '/root/cach2cach_ws/build/mur5e_reference/base_placement_optimizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/cach2cach_ws/third_party/mur5e_reference/src/base_placement_optimizer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer
+[6.882s] Invoking command in '/root/cach2cach_ws/build/mur5e_reference/base_placement_optimizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/cach2cach_ws/build/mur5e_reference/base_placement_optimizer -- -j28 -l28
+[6.966s] [  2%] Building CXX object CMakeFiles/optimizer_node_exe.dir/rclcpp_components/node_main_optimizer_node_exe.cpp.o
+[6.967s] [  4%] Generating type hashes for ROS interfaces
+[6.967s] [  8%] Generating Rust code for ROS interfaces
+[6.967s] [  8%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[6.968s] [ 11%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[6.980s] [ 11%] Built target ament_cmake_python_symlink_base_placement_optimizer
+[7.230s] [ 11%] Built target base_placement_optimizer__rosidl_generator_type_description
+[7.246s] running egg_info
+[7.246s] [ 13%] Generating C code for ROS interfaces
+[7.247s] creating base_placement_optimizer.egg-info
+[7.264s] [ 15%] Generating C++ code for ROS interfaces
+[7.265s] writing base_placement_optimizer.egg-info/PKG-INFO
+[7.265s] writing dependency_links to base_placement_optimizer.egg-info/dependency_links.txt
+[7.266s] writing top-level names to base_placement_optimizer.egg-info/top_level.txt
+[7.266s] writing manifest file 'base_placement_optimizer.egg-info/SOURCES.txt'
+[7.285s] [ 15%] Built target base_placement_optimizer__rs
+[7.321s] reading manifest file 'base_placement_optimizer.egg-info/SOURCES.txt'
+[7.321s] writing manifest file 'base_placement_optimizer.egg-info/SOURCES.txt'
+[7.358s] [ 15%] Built target ament_cmake_python_build_base_placement_optimizer_egg
+[7.755s] [ 15%] Built target base_placement_optimizer__cpp
+[7.779s] [ 17%] Building C object CMakeFiles/base_placement_optimizer__rosidl_generator_c.dir/rosidl_generator_c/base_placement_optimizer/action/detail/optimize_placement__functions.c.o
+[7.780s] [ 22%] Building C object CMakeFiles/base_placement_optimizer__rosidl_generator_c.dir/rosidl_generator_c/base_placement_optimizer/action/detail/optimize_placement__description.c.o
+[7.780s] [ 22%] Building C object CMakeFiles/base_placement_optimizer__rosidl_generator_c.dir/rosidl_generator_c/base_placement_optimizer/action/detail/optimize_placement__type_support.c.o
+[7.854s] [ 24%] Linking CXX static library libgtest_main.a
+[7.906s] [ 24%] Built target gtest_main
+[7.977s] [ 26%] Linking C shared library libbase_placement_optimizer__rosidl_generator_c.so
+[8.031s] [ 26%] Built target base_placement_optimizer__rosidl_generator_c
+[8.049s] [ 28%] Generating C type support for eProsima Fast-RTPS
+[8.050s] [ 40%] Generating C type support dispatch for ROS interfaces
+[8.050s] [ 40%] Generating C++ type support for eProsima Fast-RTPS
+[8.050s] [ 40%] Generating C++ introspection for ROS interfaces
+[8.050s] [ 40%] Generating C++ type support dispatch for ROS interfaces
+[8.050s] [ 40%] Generating C introspection for ROS interfaces
+[8.412s] [ 42%] Building CXX object CMakeFiles/base_placement_optimizer__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_placement_optimizer/action/optimize_placement__type_support.cpp.o
+[8.440s] [ 44%] Building CXX object CMakeFiles/base_placement_optimizer__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_placement_optimizer/action/detail/optimize_placement__type_support.cpp.o
+[8.462s] [ 46%] Building CXX object CMakeFiles/base_placement_optimizer__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_placement_optimizer/action/optimize_placement__type_support.cpp.o
+[8.477s] [ 48%] Building C object CMakeFiles/base_placement_optimizer__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_placement_optimizer/action/detail/optimize_placement__type_support.c.o
+[8.491s] [ 51%] Linking CXX shared library libbase_placement_optimizer__rosidl_typesupport_c.so
+[8.555s] [ 51%] Built target base_placement_optimizer__rosidl_typesupport_c
+[8.564s] [ 53%] Linking C shared library libbase_placement_optimizer__rosidl_typesupport_introspection_c.so
+[8.574s] [ 55%] Building CXX object CMakeFiles/base_placement_optimizer__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_placement_optimizer/action/detail/dds_fastrtps/optimize_placement__type_support.cpp.o
+[8.605s] [ 57%] Building CXX object CMakeFiles/base_placement_optimizer__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_placement_optimizer/action/detail/optimize_placement__type_support_c.cpp.o
+[8.615s] [ 57%] Built target base_placement_optimizer__rosidl_typesupport_introspection_c
+[9.197s] [ 60%] Linking CXX shared library libbase_placement_optimizer__rosidl_typesupport_cpp.so
+[9.236s] [ 62%] Linking CXX shared library libbase_placement_optimizer__rosidl_typesupport_fastrtps_c.so
+[9.281s] [ 64%] Linking CXX shared library libbase_placement_optimizer__rosidl_typesupport_introspection_cpp.so
+[9.311s] [ 64%] Built target base_placement_optimizer__rosidl_typesupport_cpp
+[9.335s] [ 64%] Built target base_placement_optimizer__rosidl_typesupport_fastrtps_c
+[9.381s] [ 64%] Built target base_placement_optimizer__rosidl_typesupport_introspection_cpp
+[9.635s] [ 66%] Linking CXX shared library libbase_placement_optimizer__rosidl_typesupport_fastrtps_cpp.so
+[9.736s] [ 66%] Built target base_placement_optimizer__rosidl_typesupport_fastrtps_cpp
+[9.764s] [ 66%] Built target base_placement_optimizer
+[9.792s] [ 68%] Building CXX object CMakeFiles/optimizer_node.dir/src/optimizer_node.cpp.o
+[9.797s] [ 71%] Generating Python code for ROS interfaces
+[10.364s] [ 73%] Linking CXX executable optimizer_node_exe
+[10.518s] [ 73%] Built target optimizer_node_exe
+[10.534s] [ 73%] Built target base_placement_optimizer__py
+[10.565s] [ 75%] Building C object CMakeFiles/base_placement_optimizer__rosidl_generator_py.dir/rosidl_generator_py/base_placement_optimizer/action/_optimize_placement_s.c.o
+[10.804s] [ 77%] Linking C shared library libbase_placement_optimizer__rosidl_generator_py.so
+[10.876s] [ 77%] Built target base_placement_optimizer__rosidl_generator_py
+[10.905s] [ 80%] Building C object CMakeFiles/base_placement_optimizer_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/base_placement_optimizer/_base_placement_optimizer_s.ep.rosidl_typesupport_introspection_c.c.o
+[10.908s] [ 82%] Building C object CMakeFiles/base_placement_optimizer_s__rosidl_typesupport_c.dir/rosidl_generator_py/base_placement_optimizer/_base_placement_optimizer_s.ep.rosidl_typesupport_c.c.o
+[10.908s] [ 84%] Building C object CMakeFiles/base_placement_optimizer_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/base_placement_optimizer/_base_placement_optimizer_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[11.061s] [ 86%] Linking C shared module rosidl_generator_py/base_placement_optimizer/base_placement_optimizer_s__rosidl_typesupport_introspection_c.so
+[11.063s] [ 88%] Linking C shared module rosidl_generator_py/base_placement_optimizer/base_placement_optimizer_s__rosidl_typesupport_fastrtps_c.so
+[11.075s] [ 91%] Linking C shared module rosidl_generator_py/base_placement_optimizer/base_placement_optimizer_s__rosidl_typesupport_c.so
+[11.108s] [ 91%] Built target base_placement_optimizer_s__rosidl_typesupport_fastrtps_c
+[11.112s] [ 91%] Built target base_placement_optimizer_s__rosidl_typesupport_introspection_c
+[11.120s] [ 91%] Built target base_placement_optimizer_s__rosidl_typesupport_c
+[11.190s] [ 93%] Linking CXX static library libgtest.a
+[11.268s] [ 93%] Built target gtest
+[30.841s] [ 95%] Linking CXX shared library liboptimizer_node.so
+[31.793s] [ 95%] Built target optimizer_node
+[31.830s] [ 97%] Building CXX object CMakeFiles/test_optimizer.dir/test/test_optimizer.cpp.o
+[44.718s] [100%] Linking CXX executable test_optimizer
+[45.790s] [100%] Built target test_optimizer
+[45.812s] Invoked command in '/root/cach2cach_ws/build/mur5e_reference/base_placement_optimizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/cach2cach_ws/build/mur5e_reference/base_placement_optimizer -- -j28 -l28
+[45.814s] Invoking command in '/root/cach2cach_ws/build/mur5e_reference/base_placement_optimizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/cach2cach_ws/build/mur5e_reference/base_placement_optimizer
+[45.830s] -- Install configuration: ""
+[45.831s] -- Execute custom install script
+[45.832s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/ament_index/resource_index/rosidl_interfaces/base_placement_optimizer
+[45.848s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/action/OptimizePlacement.json
+[45.865s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/action/detail/optimize_placement__functions.h
+[45.879s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/action/detail/optimize_placement__struct.h
+[45.894s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/action/detail/optimize_placement__type_support.h
+[45.907s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/action/optimize_placement.h
+[45.920s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/msg/rosidl_generator_c__visibility_control.h
+[45.935s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/environment/library_path.sh
+[45.948s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/environment/library_path.dsv
+[45.962s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/action/detail/optimize_placement__rosidl_typesupport_fastrtps_c.h
+[45.975s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[45.989s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/action/detail/optimize_placement__builder.hpp
+[46.003s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/action/detail/optimize_placement__struct.hpp
+[46.017s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/action/detail/optimize_placement__traits.hpp
+[46.031s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/action/detail/optimize_placement__type_support.hpp
+[46.046s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/action/optimize_placement.hpp
+[46.062s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/msg/rosidl_generator_cpp__visibility_control.hpp
+[46.075s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/action/detail/optimize_placement__rosidl_typesupport_fastrtps_cpp.hpp
+[46.087s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[46.102s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/action/detail/optimize_placement__rosidl_typesupport_introspection_c.h
+[46.115s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[46.130s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/base_placement_optimizer/action/detail/optimize_placement__rosidl_typesupport_introspection_cpp.hpp
+[46.146s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/environment/pythonpath.sh
+[46.160s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/environment/pythonpath.dsv
+[46.174s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer-0.0.0-py3.12.egg-info/PKG-INFO
+[46.188s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer-0.0.0-py3.12.egg-info/SOURCES.txt
+[46.204s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer-0.0.0-py3.12.egg-info/dependency_links.txt
+[46.219s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer-0.0.0-py3.12.egg-info/top_level.txt
+[46.233s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/__init__.py
+[46.246s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/_base_placement_optimizer_s.ep.rosidl_typesupport_c.c
+[46.259s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/_base_placement_optimizer_s.ep.rosidl_typesupport_fastrtps_c.c
+[46.272s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/_base_placement_optimizer_s.ep.rosidl_typesupport_introspection_c.c
+[46.285s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/action/__init__.py
+[46.302s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/action/_optimize_placement.py
+[46.314s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/action/_optimize_placement_s.c
+[46.327s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/base_placement_optimizer_s__rosidl_typesupport_c.so
+[46.341s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/base_placement_optimizer_s__rosidl_typesupport_fastrtps_c.so
+[46.354s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/base_placement_optimizer_s__rosidl_typesupport_introspection_c.so
+[46.369s] -- Up-to-date symlink: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/base_placement_optimizer_s__rosidl_typesupport_fastrtps_c.so
+[46.370s] -- Up-to-date symlink: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/base_placement_optimizer_s__rosidl_typesupport_introspection_c.so
+[46.370s] -- Up-to-date symlink: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/base_placement_optimizer_s__rosidl_typesupport_c.so
+[46.370s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/ament_index/resource_index/rust_packages/base_placement_optimizer
+[46.383s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/rust/Cargo.toml
+[46.398s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/rust/build.rs
+[46.414s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/rust/src/action.rs
+[46.428s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/rust/src/action/rmw.rs
+[46.440s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/rust/src/lib.rs
+[46.456s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/action/OptimizePlacement.idl
+[46.468s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/action/OptimizePlacement.action
+[46.481s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/base_placement_optimizer/optimizer_node_exe
+[46.496s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/liboptimizer_node.so
+[46.511s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/include/base_placement_optimizer/optimizer_node.hpp
+[46.524s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer//launch/optimizer.launch.py
+[46.537s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer//launch/optimizer_demo.launch.py
+[46.550s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/base_placement_optimizer/run_task.py
+[46.564s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/ament_index/resource_index/package_run_dependencies/base_placement_optimizer
+[46.578s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/ament_index/resource_index/parent_prefix_path/base_placement_optimizer
+[46.593s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/environment/ament_prefix_path.sh
+[46.606s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/environment/ament_prefix_path.dsv
+[46.622s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/environment/path.sh
+[46.635s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/environment/path.dsv
+[46.648s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/local_setup.bash
+[46.663s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/local_setup.sh
+[46.676s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/local_setup.zsh
+[46.690s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/local_setup.dsv
+[46.705s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/package.dsv
+[46.719s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/ament_index/resource_index/packages/base_placement_optimizer
+[46.733s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/ament_index/resource_index/rclcpp_components/base_placement_optimizer
+[46.747s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/rosidl_cmake-extras.cmake
+[46.761s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/ament_cmake_export_dependencies-extras.cmake
+[46.775s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/ament_cmake_export_include_directories-extras.cmake
+[46.789s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/ament_cmake_export_libraries-extras.cmake
+[46.803s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/ament_cmake_export_targets-extras.cmake
+[46.817s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[46.831s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[46.845s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[46.861s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/base_placement_optimizerConfig.cmake
+[46.877s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/base_placement_optimizerConfig-version.cmake
+[46.892s] -- Symlinking: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/package.xml
+[46.907s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/libbase_placement_optimizer__rosidl_generator_c.so
+[46.908s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/libbase_placement_optimizer__rosidl_generator_c.so" to ""
+[46.908s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/libbase_placement_optimizer__rosidl_typesupport_fastrtps_c.so
+[46.908s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/libbase_placement_optimizer__rosidl_typesupport_fastrtps_c.so" to ""
+[46.908s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/libbase_placement_optimizer__rosidl_typesupport_fastrtps_cpp.so
+[46.909s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/libbase_placement_optimizer__rosidl_typesupport_fastrtps_cpp.so" to ""
+[46.909s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/libbase_placement_optimizer__rosidl_typesupport_introspection_c.so
+[46.909s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/libbase_placement_optimizer__rosidl_typesupport_introspection_c.so" to ""
+[46.910s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/libbase_placement_optimizer__rosidl_typesupport_c.so
+[46.910s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/libbase_placement_optimizer__rosidl_typesupport_c.so" to ""
+[46.910s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/libbase_placement_optimizer__rosidl_typesupport_introspection_cpp.so
+[46.910s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/libbase_placement_optimizer__rosidl_typesupport_introspection_cpp.so" to ""
+[46.910s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/libbase_placement_optimizer__rosidl_typesupport_cpp.so
+[46.911s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/libbase_placement_optimizer__rosidl_typesupport_cpp.so" to ""
+[46.986s] Listing '/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer'...
+[46.986s] Compiling '/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/__init__.py'...
+[46.986s] Listing '/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/action'...
+[46.987s] Compiling '/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/action/__init__.py'...
+[46.987s] Compiling '/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/python3.12/site-packages/base_placement_optimizer/action/_optimize_placement.py'...
+[46.994s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/libbase_placement_optimizer__rosidl_generator_py.so
+[46.995s] -- Set non-toolchain portion of runtime path of "/root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/lib/libbase_placement_optimizer__rosidl_generator_py.so" to ""
+[46.995s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/export_base_placement_optimizer__rosidl_generator_cExport.cmake
+[46.995s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/export_base_placement_optimizer__rosidl_generator_cExport-noconfig.cmake
+[46.995s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/export_base_placement_optimizer__rosidl_typesupport_fastrtps_cExport.cmake
+[46.995s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/export_base_placement_optimizer__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[46.995s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/export_base_placement_optimizer__rosidl_generator_cppExport.cmake
+[46.995s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/export_base_placement_optimizer__rosidl_typesupport_fastrtps_cppExport.cmake
+[46.995s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/export_base_placement_optimizer__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[46.995s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/base_placement_optimizer__rosidl_typesupport_introspection_cExport.cmake
+[46.995s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/base_placement_optimizer__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[46.996s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/base_placement_optimizer__rosidl_typesupport_cExport.cmake
+[46.996s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/base_placement_optimizer__rosidl_typesupport_cExport-noconfig.cmake
+[46.996s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/base_placement_optimizer__rosidl_typesupport_introspection_cppExport.cmake
+[46.996s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/base_placement_optimizer__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[46.996s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/base_placement_optimizer__rosidl_typesupport_cppExport.cmake
+[46.996s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/base_placement_optimizer__rosidl_typesupport_cppExport-noconfig.cmake
+[46.997s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/export_base_placement_optimizer__rosidl_generator_pyExport.cmake
+[46.997s] -- Installing: /root/cach2cach_ws/install/mur5e_reference/base_placement_optimizer/share/base_placement_optimizer/cmake/export_base_placement_optimizer__rosidl_generator_pyExport-noconfig.cmake
+[46.999s] Invoked command in '/root/cach2cach_ws/build/mur5e_reference/base_placement_optimizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/cach2cach_ws/build/mur5e_reference/base_placement_optimizer

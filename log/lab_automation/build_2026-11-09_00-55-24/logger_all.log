@@ -1,0 +1,99 @@
+[0.141s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', '--log-base', 'log/lab_automation', 'build', '--symlink-install', '--base-paths', 'src/cach2cach_lab_automation', '--build-base', 'build/lab_automation', '--install-base', 'install/lab_automation', '--event-handlers', 'console_direct+']
+[0.141s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base='log/lab_automation', log_level=None, verb_name='build', build_base='/root/cach2cach_ws/build/lab_automation', install_base='/root/cach2cach_ws/install/lab_automation', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=28, event_handlers=['console_direct+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['src/cach2cach_lab_automation'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7254fd5d27b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7254fd5d21e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7254fd5d21e0>>, mixin_verb=('build',))
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.190s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.190s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.191s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.191s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/cach2cach_ws/src/cach2cach_lab_automation'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/cach2cach_lab_automation) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/cach2cach_lab_automation) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/cach2cach_lab_automation) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/cach2cach_lab_automation) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cach2cach_lab_automation) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cach2cach_lab_automation) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cach2cach_lab_automation) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cach2cach_lab_automation) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cach2cach_lab_automation) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cach2cach_lab_automation' with type 'ros.ament_cmake' and name 'cach2cach_lab_automation'
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'cach2cach_lab_automation' build argument 'cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'cach2cach_lab_automation' build argument 'cmake_target' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'cach2cach_lab_automation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'cach2cach_lab_automation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'cach2cach_lab_automation' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'cach2cach_lab_automation' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'cach2cach_lab_automation' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'cach2cach_lab_automation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'cach2cach_lab_automation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'cach2cach_lab_automation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation', 'merge_install': False, 'path': '/root/cach2cach_ws/src/cach2cach_lab_automation', 'symlink_install': True, 'test_result_base': None}
+[0.252s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.253s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.253s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/cach2cach_ws/src/cach2cach_lab_automation' with build type 'ament_cmake'
+[0.253s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/cach2cach_ws/src/cach2cach_lab_automation'
+[0.256s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.256s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.256s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation -- -j28 -l28
+[14.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation -- -j28 -l28
+[14.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation
+[14.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cach2cach_lab_automation)
+[14.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation
+[14.499s] Level 1:colcon.colcon_core.environment:checking '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation' for CMake module files
+[14.500s] Level 1:colcon.colcon_core.environment:checking '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation' for CMake config files
+[14.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('cach2cach_lab_automation', 'cmake_prefix_path')
+[14.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/hook/cmake_prefix_path.ps1'
+[14.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/hook/cmake_prefix_path.dsv'
+[14.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/hook/cmake_prefix_path.sh'
+[14.504s] Level 1:colcon.colcon_core.environment:checking '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib'
+[14.504s] Level 1:colcon.colcon_core.environment:checking '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/bin'
+[14.505s] Level 1:colcon.colcon_core.environment:checking '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib/pkgconfig/cach2cach_lab_automation.pc'
+[14.506s] Level 1:colcon.colcon_core.environment:checking '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib/python3.12/site-packages'
+[14.507s] Level 1:colcon.colcon_core.environment:checking '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/bin'
+[14.507s] INFO:colcon.colcon_core.shell:Creating package script '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.ps1'
+[14.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.dsv'
+[14.510s] INFO:colcon.colcon_core.shell:Creating package script '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.sh'
+[14.510s] INFO:colcon.colcon_core.shell:Creating package script '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.bash'
+[14.511s] INFO:colcon.colcon_core.shell:Creating package script '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.zsh'
+[14.512s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/colcon-core/packages/cach2cach_lab_automation)
+[14.513s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cach2cach_lab_automation)
+[14.513s] Level 1:colcon.colcon_core.environment:checking '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation' for CMake module files
+[14.513s] Level 1:colcon.colcon_core.environment:checking '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation' for CMake config files
+[14.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('cach2cach_lab_automation', 'cmake_prefix_path')
+[14.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/hook/cmake_prefix_path.ps1'
+[14.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/hook/cmake_prefix_path.dsv'
+[14.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/hook/cmake_prefix_path.sh'
+[14.516s] Level 1:colcon.colcon_core.environment:checking '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib'
+[14.516s] Level 1:colcon.colcon_core.environment:checking '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/bin'
+[14.516s] Level 1:colcon.colcon_core.environment:checking '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib/pkgconfig/cach2cach_lab_automation.pc'
+[14.516s] Level 1:colcon.colcon_core.environment:checking '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib/python3.12/site-packages'
+[14.517s] Level 1:colcon.colcon_core.environment:checking '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/bin'
+[14.517s] INFO:colcon.colcon_core.shell:Creating package script '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.ps1'
+[14.518s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.dsv'
+[14.518s] INFO:colcon.colcon_core.shell:Creating package script '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.sh'
+[14.519s] INFO:colcon.colcon_core.shell:Creating package script '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.bash'
+[14.519s] INFO:colcon.colcon_core.shell:Creating package script '/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.zsh'
+[14.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/colcon-core/packages/cach2cach_lab_automation)
+[14.520s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.520s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.520s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.520s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[14.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.533s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.536s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[14.536s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.537s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/cach2cach_ws/install/lab_automation/local_setup.ps1'
+[14.538s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/cach2cach_ws/install/lab_automation/_local_setup_util_ps1.py'
+[14.540s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/cach2cach_ws/install/lab_automation/setup.ps1'
+[14.542s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/cach2cach_ws/install/lab_automation/local_setup.sh'
+[14.544s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/cach2cach_ws/install/lab_automation/_local_setup_util_sh.py'
+[14.545s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/cach2cach_ws/install/lab_automation/setup.sh'
+[14.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/cach2cach_ws/install/lab_automation/local_setup.bash'
+[14.547s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/cach2cach_ws/install/lab_automation/setup.bash'
+[14.549s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/cach2cach_ws/install/lab_automation/local_setup.zsh'
+[14.549s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/cach2cach_ws/install/lab_automation/setup.zsh'

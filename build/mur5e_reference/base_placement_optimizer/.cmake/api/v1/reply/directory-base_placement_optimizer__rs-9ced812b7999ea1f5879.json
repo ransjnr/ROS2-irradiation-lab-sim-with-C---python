@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "base_placement_optimizer__rs",
+		"source" : "/root/cach2cach_ws/build/mur5e_reference/base_placement_optimizer/base_placement_optimizer__rs"
+	}
+}

@@ -1,0 +1,14 @@
+source;share/base_placement_optimizer/hook/cmake_prefix_path.ps1
+source;share/base_placement_optimizer/hook/cmake_prefix_path.dsv
+source;share/base_placement_optimizer/hook/cmake_prefix_path.sh
+source;share/base_placement_optimizer/hook/ld_library_path_lib.ps1
+source;share/base_placement_optimizer/hook/ld_library_path_lib.dsv
+source;share/base_placement_optimizer/hook/ld_library_path_lib.sh
+source;share/base_placement_optimizer/hook/pythonpath.ps1
+source;share/base_placement_optimizer/hook/pythonpath.dsv
+source;share/base_placement_optimizer/hook/pythonpath.sh
+source;share/base_placement_optimizer/local_setup.bash
+source;share/base_placement_optimizer/local_setup.dsv
+source;share/base_placement_optimizer/local_setup.ps1
+source;share/base_placement_optimizer/local_setup.sh
+source;share/base_placement_optimizer/local_setup.zsh

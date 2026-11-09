@@ -1,0 +1,4 @@
+source;share/cach2cach_lab_automation/local_setup.bash
+source;share/cach2cach_lab_automation/local_setup.dsv
+source;share/cach2cach_lab_automation/local_setup.sh
+source;share/cach2cach_lab_automation/local_setup.zsh

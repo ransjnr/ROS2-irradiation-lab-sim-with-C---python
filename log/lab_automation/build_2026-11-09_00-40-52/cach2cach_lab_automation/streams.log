@@ -1,0 +1,60 @@
+[0.028s] Invoking command in '/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/cach2cach_ws/src/cach2cach_lab_automation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation
+[0.144s] -- The C compiler identification is GNU 13.3.0
+[0.265s] -- The CXX compiler identification is GNU 13.3.0
+[0.302s] -- Detecting C compiler ABI info
+[0.464s] -- Detecting C compiler ABI info - done
+[0.477s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.477s] -- Detecting C compile features
+[0.478s] -- Detecting C compile features - done
+[0.499s] -- Detecting CXX compiler ABI info
+[0.698s] -- Detecting CXX compiler ABI info - done
+[0.720s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.720s] -- Detecting CXX compile features
+[0.721s] -- Detecting CXX compile features - done
+[0.737s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.057s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.201s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.363s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.563s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.621s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.685s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.759s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.984s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.995s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.260s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.325s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.384s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.642s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.871s] -- Configuring done (2.8s)
+[2.889s] -- Generating done (0.0s)
+[2.893s] -- Build files have been written to: /root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation
+[2.913s] Invoked command in '/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/cach2cach_ws/src/cach2cach_lab_automation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation
+[2.916s] Invoking command in '/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation -- -j28 -l28
+[3.049s] [ 50%] Building CXX object CMakeFiles/sample_mission_supervisor.dir/src/sample_mission_supervisor.cpp.o
+[15.465s] [100%] Linking CXX executable sample_mission_supervisor
+[15.922s] [100%] Built target sample_mission_supervisor
+[15.950s] Invoked command in '/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation -- -j28 -l28
+[15.964s] Invoking command in '/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation
+[15.981s] -- Install configuration: ""
+[15.981s] -- Execute custom install script
+[15.982s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib/cach2cach_lab_automation/sample_mission_supervisor
+[15.998s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib/cach2cach_lab_automation/barcode_detector.py
+[16.025s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/config/sample_registry.json
+[16.049s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/launch/barcode_pipeline.launch.py
+[16.065s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/worlds/irradiation_lab.sdf
+[16.088s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/ament_index/resource_index/package_run_dependencies/cach2cach_lab_automation
+[16.114s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/ament_index/resource_index/parent_prefix_path/cach2cach_lab_automation
+[16.128s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/environment/ament_prefix_path.sh
+[16.155s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/environment/ament_prefix_path.dsv
+[16.175s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/environment/path.sh
+[16.187s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/environment/path.dsv
+[16.206s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/local_setup.bash
+[16.224s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/local_setup.sh
+[16.245s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/local_setup.zsh
+[16.271s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/local_setup.dsv
+[16.286s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.dsv
+[16.304s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/ament_index/resource_index/packages/cach2cach_lab_automation
+[16.333s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/cmake/cach2cach_lab_automationConfig.cmake
+[16.356s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/cmake/cach2cach_lab_automationConfig-version.cmake
+[16.379s] -- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.xml
+[16.399s] Invoked command in '/root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation

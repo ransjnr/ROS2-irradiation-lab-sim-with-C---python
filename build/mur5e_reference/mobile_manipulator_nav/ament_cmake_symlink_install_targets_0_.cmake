@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/cach2cach_ws/build/mur5e_reference/mobile_manipulator_nav/libis_arm_stowed_condition_bt_node.so" "TARGETS" "is_arm_stowed_condition_bt_node" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

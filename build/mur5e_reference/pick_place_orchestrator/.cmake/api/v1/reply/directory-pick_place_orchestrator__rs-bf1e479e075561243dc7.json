@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pick_place_orchestrator__rs",
+		"source" : "/root/cach2cach_ws/build/mur5e_reference/pick_place_orchestrator/pick_place_orchestrator__rs"
+	}
+}

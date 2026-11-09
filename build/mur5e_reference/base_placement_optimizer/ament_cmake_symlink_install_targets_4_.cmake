@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/cach2cach_ws/build/mur5e_reference/base_placement_optimizer/liboptimizer_node.so" "TARGETS" "optimizer_node" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

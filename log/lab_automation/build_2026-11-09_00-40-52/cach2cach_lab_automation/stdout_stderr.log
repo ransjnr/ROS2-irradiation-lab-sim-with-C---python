@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Configuring done (2.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/cach2cach_ws/build/lab_automation/cach2cach_lab_automation
+[ 50%] Building CXX object CMakeFiles/sample_mission_supervisor.dir/src/sample_mission_supervisor.cpp.o
+[100%] Linking CXX executable sample_mission_supervisor
+[100%] Built target sample_mission_supervisor
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib/cach2cach_lab_automation/sample_mission_supervisor
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/lib/cach2cach_lab_automation/barcode_detector.py
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/config/sample_registry.json
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/launch/barcode_pipeline.launch.py
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/worlds/irradiation_lab.sdf
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/ament_index/resource_index/package_run_dependencies/cach2cach_lab_automation
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/ament_index/resource_index/parent_prefix_path/cach2cach_lab_automation
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/environment/ament_prefix_path.sh
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/environment/ament_prefix_path.dsv
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/environment/path.sh
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/environment/path.dsv
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/local_setup.bash
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/local_setup.sh
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/local_setup.zsh
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/local_setup.dsv
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.dsv
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/ament_index/resource_index/packages/cach2cach_lab_automation
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/cmake/cach2cach_lab_automationConfig.cmake
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/cmake/cach2cach_lab_automationConfig-version.cmake
+-- Symlinking: /root/cach2cach_ws/install/lab_automation/cach2cach_lab_automation/share/cach2cach_lab_automation/package.xml

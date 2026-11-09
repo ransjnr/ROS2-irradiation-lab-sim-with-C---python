@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/cach2cach_ws/build/mur5e_reference/pick_place_orchestrator/rosidl_generator_py/pick_place_orchestrator/pick_place_orchestrator_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "pick_place_orchestrator_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/pick_place_orchestrator")

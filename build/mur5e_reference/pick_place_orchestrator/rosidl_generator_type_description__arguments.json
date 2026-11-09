@@ -1,0 +1,15 @@
+{
+  "package_name": "pick_place_orchestrator",
+  "output_dir": "/root/cach2cach_ws/build/mur5e_reference/pick_place_orchestrator/rosidl_generator_type_description/pick_place_orchestrator",
+  "idl_tuples": [
+    "/root/cach2cach_ws/build/mur5e_reference/pick_place_orchestrator/rosidl_adapter/pick_place_orchestrator:action/PickPlaceMission.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

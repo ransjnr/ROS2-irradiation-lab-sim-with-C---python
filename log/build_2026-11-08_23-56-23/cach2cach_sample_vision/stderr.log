@@ -1,0 +1,24 @@
+CMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces().  i.e:
+
+    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+
+Call Stack (most recent call first):
+  CMakeLists.txt:24 (rosidl_target_interfaces)
+
+
+/root/cach2cach_ws/src/cach2cach_sample_vision/src/barcode_detector.cpp: In member function ‘void cach2cach_sample_vision::BarcodeDetector::on_image(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&)’:
+/root/cach2cach_ws/src/cach2cach_sample_vision/src/barcode_detector.cpp:65:64: error: cannot convert ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} to ‘cv::OutputArray’ {aka ‘const cv::_OutputArray&’}
+   65 |     const bool found = detector_.detectAndDecode(color->image, decoded, corners);
+      |                                                                ^~~~~~~
+      |                                                                |
+      |                                                                std::string {aka std::__cxx11::basic_string<char>}
+In file included from /root/cach2cach_ws/src/cach2cach_sample_vision/src/barcode_detector.cpp:9:
+/usr/include/opencv4/opencv2/objdetect.hpp:793:69: note:   initializing argument 2 of ‘std::string cv::QRCodeDetector::detectAndDecode(cv::InputArray, cv::OutputArray, cv::OutputArray)’
+  793 |     CV_WRAP std::string detectAndDecode(InputArray img, OutputArray points=noArray(),
+      |                                                         ~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/barcode_detector.dir/build.make:76: CMakeFiles/barcode_detector.dir/src/barcode_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:645: CMakeFiles/barcode_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
