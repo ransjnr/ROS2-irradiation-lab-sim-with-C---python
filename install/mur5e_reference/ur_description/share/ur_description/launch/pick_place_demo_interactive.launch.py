@@ -1,1 +1,0 @@
-/root/cach2cach_ws/third_party/mur5e_reference/src/ur_description/launch/pick_place_demo_interactive.launch.py

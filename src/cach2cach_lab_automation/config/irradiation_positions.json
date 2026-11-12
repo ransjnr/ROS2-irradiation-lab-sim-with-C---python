@@ -1,0 +1,15 @@
+{
+  "frame": "experiment_table",
+  "source_center_xy_m": [-3.0, 0.0],
+  "grid_spacing_m": 0.75,
+  "source_ring_radius_m": 1.30,
+  "positions": {
+    "IRR-A": [-1.70, 0.00],
+    "IRR-B": [-1.95, 0.76],
+    "IRR-C": [-2.60, 1.24],
+    "IRR-D": [-3.40, 1.24],
+    "IRR-E": [-4.05, 0.76],
+    "IRR-F": [-4.30, 0.00]
+  },
+  "notes": "Baseline reconstructed from the supplied photograph; replace with surveyed coordinates before use on real irradiation hardware."
+}

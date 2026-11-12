@@ -1,1 +1,0 @@
-mobile_manipulator_description;xacro;robot_state_publisher;ros_gz_sim;gz_ros2_control;controller_manager;diff_drive_controller;joint_trajectory_controller;joint_state_broadcaster;ament_lint_auto;ament_lint_common

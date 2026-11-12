@@ -22,8 +22,8 @@ def generate_launch_description():
             launch_arguments={
                 "world": world,
                 "headless": LaunchConfiguration("headless"),
-                "x_pose": "0.0",
-                "y_pose": "0.0",
+                "x_pose": "-6.0",
+                "y_pose": "-4.5",
                 "z_pose": "0.15",
             }.items(),
         ),

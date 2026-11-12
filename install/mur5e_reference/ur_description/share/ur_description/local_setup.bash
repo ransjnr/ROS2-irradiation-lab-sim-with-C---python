@@ -1,1 +1,0 @@
-/root/cach2cach_ws/build/mur5e_reference/ur_description/ament_cmake_environment_hooks/local_setup.bash

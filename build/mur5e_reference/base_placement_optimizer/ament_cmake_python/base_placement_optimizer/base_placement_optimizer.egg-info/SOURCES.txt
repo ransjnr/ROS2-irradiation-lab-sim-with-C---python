@@ -1,6 +1,0 @@
-setup.py
-base_placement_optimizer/__init__.py
-base_placement_optimizer.egg-info/PKG-INFO
-base_placement_optimizer.egg-info/SOURCES.txt
-base_placement_optimizer.egg-info/dependency_links.txt
-base_placement_optimizer.egg-info/top_level.txt

@@ -13,12 +13,16 @@
   <depend>geometry_msgs</depend>
   <depend>control_msgs</depend>
   <depend>trajectory_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>nav2_msgs</depend>
   <depend>pick_place_orchestrator</depend>
   <depend>std_msgs</depend>
   <exec_depend>cv_bridge</exec_depend>
   <exec_depend>rclpy</exec_depend>
   <exec_depend>numpy</exec_depend>
   <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>lifecycle_msgs</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
 
   <export><build_type>ament_cmake</build_type></export>
 </package>

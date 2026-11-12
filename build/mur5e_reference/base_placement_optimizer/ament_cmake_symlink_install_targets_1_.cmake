@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/cach2cach_ws/build/mur5e_reference/base_placement_optimizer/rosidl_generator_py/base_placement_optimizer/base_placement_optimizer_s__rosidl_typesupport_introspection_c.so" "TARGETS" "base_placement_optimizer_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/base_placement_optimizer")

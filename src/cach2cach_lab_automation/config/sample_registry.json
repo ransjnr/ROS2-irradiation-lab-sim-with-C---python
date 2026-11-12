@@ -1,21 +1,21 @@
 {
   "version": 1,
   "samples": {
-    "LAB-SAMPLE-001": {
+    "101": {
       "display_name": "Copper witness coupon",
       "source_station": "loading_rack_a",
       "destination_station": "irradiation_carousel_slot_1",
       "priority": 1,
       "handling": "standard"
     },
-    "LAB-SAMPLE-002": {
+    "102": {
       "display_name": "Silicon dosimeter",
       "source_station": "loading_rack_a",
       "destination_station": "irradiation_carousel_slot_2",
       "priority": 2,
       "handling": "fragile"
     },
-    "LAB-SAMPLE-003": {
+    "103": {
       "display_name": "Polymer reference vial",
       "source_station": "loading_rack_b",
       "destination_station": "irradiation_carousel_slot_3",

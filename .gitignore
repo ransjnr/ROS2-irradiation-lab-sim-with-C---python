@@ -1,0 +1,11 @@
+# Generated datasets and vision recordings (not source assets).
+data/
+
+# ROS 2 build products and logs.
+build/
+install/
+log/
+
+# Python bytecode.
+__pycache__/
+*.py[cod]

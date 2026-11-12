@@ -1,1 +1,0 @@
-/root/cach2cach_ws/build/mur5e_reference/base_placement_optimizer/rosidl_typesupport_introspection_c/base_placement_optimizer/action/detail/optimize_placement__rosidl_typesupport_introspection_c.h

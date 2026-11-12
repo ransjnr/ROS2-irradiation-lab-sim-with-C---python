@@ -36,7 +36,7 @@ class RobotPanel(Node):
         self.arm_client = ActionClient(self, FollowJointTrajectory, "/joint_trajectory_controller/follow_joint_trajectory")
         self.gripper_client = ActionClient(self, FollowJointTrajectory, "/gripper_controller/follow_joint_trajectory")
         self.status = tk.StringVar(value="Ready — each base button makes one safe, visible movement")
-        self.sample_id = tk.StringVar(value="LAB-SAMPLE-001")
+        self.sample_id = tk.StringVar(value="101")
         self.active_command = None
         self.drive_until = None
         self.create_subscription(String, "/lab/execution_state", self.on_execution_state, 10)
@@ -72,11 +72,13 @@ class RobotPanel(Node):
         tk.Button(arm, text="Open gripper", width=16, command=partial(self.move_gripper, 0.040)).grid(row=1, column=0, columnspan=1, pady=4)
         tk.Button(arm, text="Close gripper", width=16, command=partial(self.move_gripper, 0.000)).grid(row=1, column=1, columnspan=1, pady=4)
 
-        task = tk.LabelFrame(self.root, text="Approved sample task", padx=8, pady=8)
+        task = tk.LabelFrame(self.root, text="Barcode mission", padx=8, pady=8)
         task.pack(fill="x", pady=(10, 0))
         tk.Label(task, text="Sample ID:").grid(row=0, column=0)
         tk.Entry(task, textvariable=self.sample_id, width=25).grid(row=0, column=1, padx=6)
-        tk.Button(task, text="Approve matching task", command=self.approve).grid(row=0, column=2)
+        tk.Button(task, text="Start matching mission", command=self.approve).grid(row=0, column=2)
+        tk.Label(task, text="Scan the physical barcode first. Start only accepts the most recently recognized ID.", fg="#404040").grid(
+            row=1, column=0, columnspan=3, pady=(5, 0))
 
         tk.Label(self.root, textvariable=self.status, justify="left", anchor="w", wraplength=500,
                  bg="#e8f0fe", padx=8, pady=8).pack(fill="x", pady=(12, 0))
@@ -125,7 +127,7 @@ class RobotPanel(Node):
             self.status.set("Enter a sample ID first")
             return
         self.approval_pub.publish(String(data=f"APPROVE:{sample}"))
-        self.status.set(f"Approval sent for {sample}; executor remains dry-run unless enabled")
+        self.status.set(f"Start sent for {sample}; the robot will execute only after a matching barcode scan and motion-enabled launch")
 
     def on_execution_state(self, message):
         self.status.set(message.data)

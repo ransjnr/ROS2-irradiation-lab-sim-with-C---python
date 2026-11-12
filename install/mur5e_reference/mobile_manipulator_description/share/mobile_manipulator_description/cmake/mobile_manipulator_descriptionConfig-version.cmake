@@ -1,1 +1,0 @@
-/root/cach2cach_ws/build/mur5e_reference/mobile_manipulator_description/ament_cmake_core/mobile_manipulator_descriptionConfig-version.cmake
